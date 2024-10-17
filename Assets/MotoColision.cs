@@ -36,12 +36,16 @@ public class MotoCollision : MonoBehaviour
                 rb.constraints = RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezeRotation;
             }
         }
+        else if(collision.gameObject.tag == "PontoEntrega"){
+            Debug.Log("Moto passou por um ponto de entrega!");
+
+        }
     }
 
     // Método chamado enquanto a moto está em colisão com outro objeto
     void OnCollisionStay(Collision collision)
     {
-        Debug.Log("Moto ainda está colidindo com: " + collision.gameObject.name);
+        //Debug.Log("Moto ainda está colidindo com: " + collision.gameObject.name);
     }
 
     // Método chamado quando a colisão termina
