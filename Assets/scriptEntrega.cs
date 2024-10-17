@@ -1,18 +1,20 @@
 using UnityEngine;
-
+using UnityEngine.UI;
 public class PontoEntrega : MonoBehaviour
 {
     public bool entregaFeita = false;
     private GerenciadorDeEntregas scriptGerenciadorEntrega;
-
+    public Text TxtDinheiro;    // Referência ao Text na UI para exibir o dinheiro
+    public AtualizaDinheiro atualizaDinheiro; 
+    public int dinheiro = 1000;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            if (!entregaFeita)
+            if (!entregaFeita)  
             {
+                dinheiro+=100;
                 entregaFeita = true;
-                // Aqui você pode adicionar o código para dar o feedback ao jogador
                 Debug.Log("Entrega realizada!");
                 GameObject otherGameObject = GameObject.Find("TxtQtdPedidos");
                 scriptGerenciadorEntrega = otherGameObject.GetComponent<GerenciadorDeEntregas>();
@@ -20,8 +22,8 @@ public class PontoEntrega : MonoBehaviour
                 {
                     scriptGerenciadorEntrega.EntregaRealizada();
                 }
-                // Exibir uma mensagem na tela, tocar um som, etc.
                 SetObjectVisibility(false);
+                AtualizarTexto(dinheiro);
             }
         }
     }
@@ -33,6 +35,18 @@ public class PontoEntrega : MonoBehaviour
         if(renderer != null)
         {
             renderer.enabled = isVisible;
+        }
+    }
+    void AtualizarTexto(int dinheiro)
+    {
+        // Verifica se atualizaDinheiro não é null
+    if (atualizaDinheiro != null)
+        {
+         atualizaDinheiro.AtualizarTexto(dinheiro);
+        }
+        else
+        {
+            Debug.LogError("Referência a AtualizaDinheiro não está atribuída no Inspector!");
         }
     }
 }

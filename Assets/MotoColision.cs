@@ -1,10 +1,12 @@
 using UnityEngine;
-
+using UnityEngine.UI;
 public class MotoCollision : MonoBehaviour
 {
     Rigidbody rb;
     Vector3 initialPosition;
-
+    public Text TxtDinheiro;    // Referência ao Text na UI para exibir o dinheiro
+    public AtualizaDinheiro atualizaDinheiro; 
+    public int dinheiro = 1000;
     // Inicializa o Rigidbody da moto e salva a posição inicial
     void Start()
     {
@@ -15,6 +17,9 @@ public class MotoCollision : MonoBehaviour
             rb.constraints = RigidbodyConstraints.FreezeRotation;
             initialPosition = transform.position; // Guarda a posição inicial da moto
         }
+
+      
+        
     }
 
     // Método chamado quando a moto colide com outro objeto
@@ -24,6 +29,13 @@ public class MotoCollision : MonoBehaviour
         if (collision.gameObject.tag == "Obstacle")  // Suponha que o obstáculo tenha a tag 'Obstacle'
         {
             Debug.Log("Moto colidiu com um obstáculo!");
+            dinheiro -= 100;
+            Debug.Log("Dinheiro restante: " + dinheiro);
+
+            // Atualiza o texto na interface
+             
+            AtualizarTexto(dinheiro);
+            
 
             if (rb != null)
             {
@@ -55,7 +67,6 @@ public class MotoCollision : MonoBehaviour
         if (collision.gameObject.tag == "Obstacle")
         {
             Debug.Log("Moto saiu da colisão com: " + collision.gameObject.name);
-
             if (rb != null)
             {
                 // Libera o movimento no eixo Y após a colisão
@@ -65,6 +76,19 @@ public class MotoCollision : MonoBehaviour
                 Vector3 correctedPosition = new Vector3(transform.position.x, initialPosition.y, transform.position.z);
                 transform.position = correctedPosition;
             }
+        }
+    }
+    
+    void AtualizarTexto(int dinheiro)
+    {
+        // Verifica se atualizaDinheiro não é null
+        if (atualizaDinheiro != null)
+        {
+            atualizaDinheiro.AtualizarTexto(dinheiro);
+        }
+        else
+        {
+            Debug.LogError("Referência a AtualizaDinheiro não está atribuída no Inspector!");
         }
     }
 }
