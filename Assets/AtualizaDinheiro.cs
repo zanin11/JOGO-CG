@@ -5,20 +5,17 @@ public class AtualizaDinheiro : MonoBehaviour
 {
     public Text TxtDinheiro;  // Referência ao Text na UI para exibir o dinheiro
     public MotoCollision motoCollision;  // Referência ao script MotoCollision
-    public int dinheiro = 1000;
-    // Atualiza o texto do dinheiro na interface
+    int dinheiro;
     public void Start()
     {
-        AtualizarTexto(dinheiro);
+        AtualizarTexto(" 1000");
     }
-    public void AtualizarTexto(int novo_valor)
+    public void AtualizarTexto(string novo_valor)
     {
         Debug.Log("To na funcao atualizar");
-        dinheiro = novo_valor;
-        if (TxtDinheiro != null)
-        {
-            TxtDinheiro.text = "R$ " + dinheiro.ToString();
-            Debug.Log("Texto de dinheiro atualizado: " + TxtDinheiro.text); 
-        }
+        //dinheiro = int.Parse(novo_valor.Replace("R$", "").Trim());
+        TxtDinheiro.text = novo_valor;
+        Debug.Log("Texto de dinheiro atualizado: " + TxtDinheiro.text); 
+        
     }
 }

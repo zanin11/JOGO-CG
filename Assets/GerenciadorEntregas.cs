@@ -23,7 +23,7 @@ public class GerenciadorDeEntregas : MonoBehaviour
 
     public void AtualizarTextoEntregas()
     {
-        string texto = string.Format("Entregas restantes: {0}", totalDeEntregas);
+        string texto = string.Format("{0}", totalDeEntregas);
         TxtQtdPedidos.text = texto;
     }
 

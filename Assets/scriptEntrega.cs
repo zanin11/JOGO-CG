@@ -6,24 +6,29 @@ public class PontoEntrega : MonoBehaviour
     private GerenciadorDeEntregas scriptGerenciadorEntrega;
     public Text TxtDinheiro;    // Referência ao Text na UI para exibir o dinheiro
     public AtualizaDinheiro atualizaDinheiro; 
-    public int dinheiro = 1000;
+    public AudioSource audioSource; // Referência ao AudioSource
+    public AudioClip dinheiroClip; // Referência ao Clip de áudio
+    int dinheiro;
+    //public int dinheiro = parseInt(TxtDinheiro.text);
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             if (!entregaFeita)  
             {
-                dinheiro+=100;
                 entregaFeita = true;
                 Debug.Log("Entrega realizada!");
                 GameObject otherGameObject = GameObject.Find("TxtQtdPedidos");
                 scriptGerenciadorEntrega = otherGameObject.GetComponent<GerenciadorDeEntregas>();
                 if(scriptGerenciadorEntrega != null)
                 {
+                    audioSource.PlayOneShot(dinheiroClip);
                     scriptGerenciadorEntrega.EntregaRealizada();
                 }
                 SetObjectVisibility(false);
-                AtualizarTexto(dinheiro);
+                dinheiro = int.Parse(TxtDinheiro.text.Replace(" ", "").Trim());
+                dinheiro+=200;
+                AtualizarTexto(" " + dinheiro.ToString());
             }
         }
     }
@@ -37,7 +42,7 @@ public class PontoEntrega : MonoBehaviour
             renderer.enabled = isVisible;
         }
     }
-    void AtualizarTexto(int dinheiro)
+    void AtualizarTexto(string dinheiro)
     {
         // Verifica se atualizaDinheiro não é null
     if (atualizaDinheiro != null)

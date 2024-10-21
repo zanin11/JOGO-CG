@@ -6,7 +6,7 @@ public class MotoCollision : MonoBehaviour
     Vector3 initialPosition;
     public Text TxtDinheiro;    // Referência ao Text na UI para exibir o dinheiro
     public AtualizaDinheiro atualizaDinheiro; 
-    public int dinheiro = 1000;
+    int dinheiro;
     // Inicializa o Rigidbody da moto e salva a posição inicial
     void Start()
     {
@@ -29,12 +29,12 @@ public class MotoCollision : MonoBehaviour
         if (collision.gameObject.tag == "Obstacle")  // Suponha que o obstáculo tenha a tag 'Obstacle'
         {
             Debug.Log("Moto colidiu com um obstáculo!");
-            dinheiro -= 100;
-            Debug.Log("Dinheiro restante: " + dinheiro);
+            
 
             // Atualiza o texto na interface
-             
-            AtualizarTexto(dinheiro);
+            dinheiro = int.Parse(TxtDinheiro.text.Replace(" ", "").Trim());
+            dinheiro-=500;
+            AtualizarTexto(" " + dinheiro.ToString());
             
 
             if (rb != null)
@@ -79,7 +79,7 @@ public class MotoCollision : MonoBehaviour
         }
     }
     
-    void AtualizarTexto(int dinheiro)
+    void AtualizarTexto(string dinheiro)
     {
         // Verifica se atualizaDinheiro não é null
         if (atualizaDinheiro != null)
