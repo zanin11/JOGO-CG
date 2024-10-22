@@ -3,11 +3,12 @@ using UnityEngine.UI;
 public class PontoEntrega : MonoBehaviour
 {
     public bool entregaFeita = false;
-    private GerenciadorDeEntregas scriptGerenciadorEntrega;
+    public GerenciadorDeEntregas scriptGerenciadorEntrega;
     public Text TxtDinheiro;    // Referência ao Text na UI para exibir o dinheiro
     public AtualizaDinheiro atualizaDinheiro; 
     public AudioSource audioSource; // Referência ao AudioSource
     public AudioClip dinheiroClip; // Referência ao Clip de áudio
+    public bool estaAtivo = false;
     int dinheiro;
     //public int dinheiro = parseInt(TxtDinheiro.text);
     private void OnTriggerEnter(Collider other)
@@ -29,8 +30,29 @@ public class PontoEntrega : MonoBehaviour
                 dinheiro = int.Parse(TxtDinheiro.text.Replace(" ", "").Trim());
                 dinheiro+=200;
                 AtualizarTexto(" " + dinheiro.ToString());
+
+                FindObjectOfType<GerenciadorDePontos>().Update();
             }
         }
+    }
+
+    public void AtivarPonto()
+    {
+        estaAtivo = true;
+        entregaFeita = false;
+        // Aqui você pode ativar um material, um collider ou qualquer outro objeto visual
+        GetComponent<Renderer>().enabled = true; // Exemplo: ativando o renderer
+        GameObject otherGameObject = GameObject.Find("TxtQtdPedidos");
+        scriptGerenciadorEntrega = otherGameObject.GetComponent<GerenciadorDeEntregas>();
+        scriptGerenciadorEntrega.NovoPedido();
+    }
+
+    public void DesativarPonto()
+    {
+        estaAtivo = false;
+        entregaFeita = true;
+        // Aqui você pode desativar um material, um collider ou qualquer outro objeto visual
+        GetComponent<Renderer>().enabled = false; // Exemplo: desativando o renderer
     }
 
 

@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class GerenciadorDeEntregas : MonoBehaviour
 {
-    private int totalDeEntregas;
+    private int totalDeEntregas = 0;
     public Text TxtQtdPedidos; // Arraste o Text da UI para este campo
 
     public void DefinirTotalDeEntregas(int novoTotal)
@@ -21,6 +21,15 @@ public class GerenciadorDeEntregas : MonoBehaviour
         }
     }
 
+    public void NovoPedido()
+    {
+        if(totalDeEntregas < 8){
+            totalDeEntregas++;
+            AtualizarTextoEntregas();
+        }
+        
+    }
+
     public void AtualizarTextoEntregas()
     {
         string texto = string.Format("{0}", totalDeEntregas);
@@ -29,6 +38,6 @@ public class GerenciadorDeEntregas : MonoBehaviour
 
     void Start()
     {
-        DefinirTotalDeEntregas(8);
+        DefinirTotalDeEntregas(0);
     }
 }
