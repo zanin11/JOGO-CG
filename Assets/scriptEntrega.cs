@@ -30,7 +30,6 @@ public class PontoEntrega : MonoBehaviour
                 dinheiro = int.Parse(TxtDinheiro.text.Replace(" ", "").Trim());
                 dinheiro+=200;
                 AtualizarTexto(" " + dinheiro.ToString());
-
                 FindObjectOfType<GerenciadorDePontos>().Update();
             }
         }

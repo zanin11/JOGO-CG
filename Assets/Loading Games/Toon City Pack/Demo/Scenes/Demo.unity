@@ -2304,10 +2304,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
+  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 71967857}
   audioSource: {fileID: 195596631}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
+  estaAtivo: 0
 --- !u!136 &71967853
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -14988,10 +14990,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
+  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 421309662}
   audioSource: {fileID: 1183301344}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
+  estaAtivo: 0
 --- !u!136 &421309658
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -23181,34 +23185,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.0634544, y: 3.8165252, z: 1.651791}
   m_Center: {x: 0.007904529, y: 1.9082626, z: -0.012228904}
---- !u!1 &656892204 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7745891817108145497, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-  m_PrefabInstance: {fileID: 2130167825}
-  m_PrefabAsset: {fileID: 0}
---- !u!136 &656892205
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 656892204}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.42074525
-  m_Height: 4.750324
-  m_Direction: 1
-  m_Center: {x: -0.036514387, y: 2.375162, z: 0.0359478}
 --- !u!1001 &660268465
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25780,10 +25756,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
+  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 742448402}
   audioSource: {fileID: 23131137}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
+  estaAtivo: 0
 --- !u!136 &742448398
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -35825,10 +35803,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
+  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 1013366725}
   audioSource: {fileID: 597101374}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
+  estaAtivo: 0
 --- !u!136 &1013366721
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -35932,6 +35912,71 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TxtDinheiro: {fileID: 1304731574}
   motoCollision: {fileID: 663290416}
+--- !u!1001 &1015801405
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2347743963897379291, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: activeLight
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_RootOrder
+      value: 103
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 54.048386
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.087022066
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 10.042805
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.71202767
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.021738954
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7012864
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.027230844
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -3.965
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 270.887
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.476
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745891817108145497, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_Name
+      value: traffic-lights-single (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
 --- !u!1001 &1016250755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39190,10 +39235,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
+  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 1088470669}
   audioSource: {fileID: 1591416610}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
+  estaAtivo: 0
 --- !u!136 &1088470665
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -43087,6 +43134,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2347743963897379291, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: activeLight
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
       propertyPath: m_RootOrder
       value: 103
@@ -47202,10 +47253,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
+  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 1249977746}
   audioSource: {fileID: 195596631}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
+  estaAtivo: 0
 --- !u!114 &1249977746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48999,10 +49052,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
+  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 1290028103}
   audioSource: {fileID: 93670711}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
+  estaAtivo: 0
 --- !u!136 &1290028099
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -50046,6 +50101,71 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 760039646653639976, guid: 9efb2638cadf04a7d9f711b8a141df62, type: 3}
   m_PrefabInstance: {fileID: 1310117545}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1311742340
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2347743963897379291, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: activeLight
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_RootOrder
+      value: 103
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -73.53616
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01999998
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 19.405636
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.63086957
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.000000051390472
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.775889
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.00000006320448
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 101.771
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7745891817108145497, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
+      propertyPath: m_Name
+      value: traffic-lights-single (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
 --- !u!1001 &1316352182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54389,6 +54509,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 011a5c02700222644abe158dc652145c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pontosEntrega: []
+  tempoParaProximoPonto: 10
 --- !u!4 &1405167991
 Transform:
   m_ObjectHideFlags: 0
@@ -69504,10 +69626,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
+  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 1784849200}
   audioSource: {fileID: 1591416610}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
+  estaAtivo: 0
 --- !u!136 &1784849196
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -83656,7 +83780,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2347743963897379291, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
       propertyPath: activeLight
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
       propertyPath: m_RootOrder
@@ -84335,74 +84459,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3361185124121705355, guid: 42e9cad8fa0c145f6a5d249272c0b5a1, type: 3}
   m_PrefabInstance: {fileID: 2129052409}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &2130167825
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2347743963897379291, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      propertyPath: activeLight
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      propertyPath: m_RootOrder
-      value: 322
-      objectReference: {fileID: 0}
-    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -23.149433
-      objectReference: {fileID: 0}
-    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.06000042
-      objectReference: {fileID: 0}
-    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 19.407537
-      objectReference: {fileID: 0}
-    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.000000081460335
-      objectReference: {fileID: 0}
-    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.0000059753647
-      objectReference: {fileID: 0}
-    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -4.6807e-13
-      objectReference: {fileID: 0}
-    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 359.999
-      objectReference: {fileID: 0}
-    - target: {fileID: 6932516736556490723, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7745891817108145497, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      propertyPath: m_Name
-      value: traffic-lights-single_4
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7745891817108145497, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 656892205}
-  m_SourcePrefab: {fileID: 100100000, guid: 93d7a27ba43054391bdd266859e9c0a0, type: 3}
 --- !u!1001 &2130186757
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -86235,6 +86291,8 @@ SceneRoots:
   - {fileID: 2895592070325860806}
   - {fileID: 1650623000}
   - {fileID: 1167525556}
+  - {fileID: 1311742340}
+  - {fileID: 1015801405}
   - {fileID: 2000434942}
   - {fileID: 27582144}
   - {fileID: 1098877313}
@@ -86431,7 +86489,6 @@ SceneRoots:
   - {fileID: 404435155}
   - {fileID: 1296687269}
   - {fileID: 1211268210}
-  - {fileID: 2130167825}
   - {fileID: 1687494102}
   - {fileID: 762015736}
   - {fileID: 522724568}
