@@ -2304,12 +2304,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
-  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 71967857}
   audioSource: {fileID: 195596631}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
+  tempoDesdeAtivacao: 0
 --- !u!136 &71967853
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -8876,7 +8876,7 @@ Transform:
   m_GameObject: {fileID: 262668554}
   serializedVersion: 2
   m_LocalRotation: {x: 0.4250538, y: 0.48017418, z: -0.6690466, w: 0.37568444}
-  m_LocalPosition: {x: 72.13, y: 11.44, z: -50.97}
+  m_LocalPosition: {x: 67.82, y: 11.44, z: -50.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -14990,12 +14990,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
-  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 421309662}
   audioSource: {fileID: 1183301344}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
+  tempoDesdeAtivacao: 0
 --- !u!136 &421309658
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -16717,6 +16717,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7145488aa71796247bcab8b1ae1bbb06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  totalDeEntregas: 0
   TxtQtdPedidos: {fileID: 471966191}
 --- !u!1001 &476184705
 PrefabInstance:
@@ -25756,12 +25757,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
-  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 742448402}
   audioSource: {fileID: 23131137}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
+  tempoDesdeAtivacao: 0
 --- !u!136 &742448398
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -35803,12 +35804,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
-  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 1013366725}
   audioSource: {fileID: 597101374}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
+  tempoDesdeAtivacao: 0
 --- !u!136 &1013366721
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -39235,12 +39236,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
-  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 1088470669}
   audioSource: {fileID: 1591416610}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
+  tempoDesdeAtivacao: 0
 --- !u!136 &1088470665
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -47253,12 +47254,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
-  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 1249977746}
   audioSource: {fileID: 195596631}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
+  tempoDesdeAtivacao: 0
 --- !u!114 &1249977746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -49052,12 +49053,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
-  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 1290028103}
   audioSource: {fileID: 93670711}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
+  tempoDesdeAtivacao: 0
 --- !u!136 &1290028099
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -54510,7 +54511,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pontosEntrega: []
-  tempoParaProximoPonto: 10
+  scriptGerenciadorEntrega: {fileID: 0}
+  tempoParaProximoPonto: 2
+  tempoMaximoPontoAtivo: 20
 --- !u!4 &1405167991
 Transform:
   m_ObjectHideFlags: 0
@@ -69626,12 +69629,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entregaFeita: 0
-  scriptGerenciadorEntrega: {fileID: 0}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 1784849200}
   audioSource: {fileID: 1591416610}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
+  tempoDesdeAtivacao: 0
 --- !u!136 &1784849196
 CapsuleCollider:
   m_ObjectHideFlags: 0

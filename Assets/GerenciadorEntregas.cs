@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class GerenciadorDeEntregas : MonoBehaviour
 {
-    private int totalDeEntregas = 0;
+    public int totalDeEntregas = 0;
     public Text TxtQtdPedidos; // Arraste o Text da UI para este campo
 
     public void DefinirTotalDeEntregas(int novoTotal)
@@ -12,7 +12,7 @@ public class GerenciadorDeEntregas : MonoBehaviour
         AtualizarTextoEntregas();
     }
 
-    public void EntregaRealizada()
+    public void RemoverPedido()
     {
         if (totalDeEntregas > 0)
         {
