@@ -12,6 +12,8 @@ public class TrafficLights : MonoBehaviour
     public float yellowLightDuration = 2f;   // Tempo que a luz amarela ficará acesa
     public float redLightDuration = 5f;      // Tempo que a luz vermelha ficará acesa
 
+    public bool isRedLightActive; // Adiciona a variável para indicar se a luz vermelha está ativa
+
     private void Start()
     {
         mr = GetComponent<MeshRenderer>();
@@ -25,14 +27,12 @@ public class TrafficLights : MonoBehaviour
 
     public void SetLight(LightColor color)
     {
-        // Certifique-se de que o MeshRenderer tem os materiais corretos
         if (mr.materials.Length < 4)
         {
             Debug.LogError("Certifique-se de que o semáforo tem os materiais corretos configurados.");
             return;
         }
 
-        // Mat 1: Green, Mat 2: Yellow, Mat 3: Red
         int activeIndex = 0;
         switch (color)
         {
@@ -50,7 +50,6 @@ public class TrafficLights : MonoBehaviour
                 break;
         }
 
-        // Itera através dos materiais e ajusta os shaders
         for (int i = 1; i < 4; i++)
         {
             if (mr.materials.Length > i)
@@ -60,21 +59,23 @@ public class TrafficLights : MonoBehaviour
         }
 
         activeLight = color;  // Atualiza a cor ativa
+
+        // Define o valor de isRedLightActive baseado na cor ativa
+        isRedLightActive = (color == LightColor.Red);
     }
 
-    // Método para mudar automaticamente as cores em um ciclo
     private IEnumerator ChangeLightsAutomatically()
     {
         while (true)
         {
             SetLight(LightColor.Green);
-            yield return new WaitForSeconds(greenLightDuration);  // Espera pelo tempo da luz verde
+            yield return new WaitForSeconds(greenLightDuration);
 
             SetLight(LightColor.Yellow);
-            yield return new WaitForSeconds(yellowLightDuration);  // Espera pelo tempo da luz amarela
+            yield return new WaitForSeconds(yellowLightDuration);
 
             SetLight(LightColor.Red);
-            yield return new WaitForSeconds(redLightDuration);  // Espera pelo tempo da luz vermelha
+            yield return new WaitForSeconds(redLightDuration);
         }
     }
 }

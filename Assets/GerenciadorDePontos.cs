@@ -33,7 +33,7 @@ public class GerenciadorDePontos : MonoBehaviour
         tempoDesdeUltimoPonto += Time.deltaTime;
         GameObject otherGameObject = GameObject.Find("TxtQtdPedidos");
         scriptGerenciadorEntrega = otherGameObject.GetComponent<GerenciadorDeEntregas>();
-        Debug.Log("Total de entregas: " + scriptGerenciadorEntrega.totalDeEntregas);
+        //Debug.Log("Total de entregas: " + scriptGerenciadorEntrega.totalDeEntregas);
 
         if (tempoDesdeUltimoPonto >= tempoParaProximoPonto && scriptGerenciadorEntrega.totalDeEntregas < 5)
         {
