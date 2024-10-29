@@ -3,17 +3,28 @@ using UnityEngine;
 public class RedLightDetector : MonoBehaviour
 {
     public TrafficLights trafficLight; // Referência ao script do semáforo
-    
+    public Transform semaforoFrente; // Ponto de referência que indica a frente do semáforo (adicionado manualmente na hierarquia)
+
     void OnTriggerEnter(Collider other)
     {
-        // Verifica se o objeto colidido tem a tag "Player" (ou a tag que você atribuiu à moto)
+        // Verifica se o objeto colidido tem a tag "Player"
         if (other.CompareTag("Player"))
         {
             // Verifica se a luz vermelha está ativa
             if (trafficLight.activeLight == LightColor.Red)
             {
-                Debug.Log("A moto passou no sinal vermelho!");
-                // Aqui você pode adicionar uma punição, som, etc.
+                // Calcula a direção entre o player e o ponto de referência à frente do semáforo
+                Vector3 direcaoPlayer = (other.transform.position - semaforoFrente.position).normalized;
+
+                // Verifica o ângulo entre a direção do player e a frente do semáforo
+                float angulo = Vector3.Angle(semaforoFrente.forward, direcaoPlayer);
+
+                // Detecta apenas se o ângulo for inferior a um valor, indicando que o player está na direção correta
+                if (angulo < 90f)  // Ajuste o ângulo conforme necessário
+                {
+                    Debug.Log("MULTAAAAA!!!! PLAYER PASSOU NO SINAL VERMELHO!");
+                    // Aqui você pode adicionar a punição, som, etc.
+                }
             }
         }
     }

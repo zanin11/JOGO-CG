@@ -6,6 +6,8 @@ public class MotoCollision : MonoBehaviour
     Vector3 initialPosition;
     public Text TxtDinheiro;    // Referência ao Text na UI para exibir o dinheiro
     public AtualizaDinheiro atualizaDinheiro; 
+    public AudioSource audioSource; // Referência ao AudioSource
+    public AudioClip collisonClip; // Referência ao Clip de áudio
     int dinheiro;
     // Inicializa o Rigidbody da moto e salva a posição inicial
     void Start()
@@ -32,6 +34,7 @@ public class MotoCollision : MonoBehaviour
             
 
             // Atualiza o texto na interface
+            audioSource.PlayOneShot(collisonClip);
             dinheiro = int.Parse(TxtDinheiro.text.Replace(" ", "").Trim());
             dinheiro-=500;
             AtualizarTexto(" " + dinheiro.ToString());
