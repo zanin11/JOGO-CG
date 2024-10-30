@@ -22,10 +22,12 @@ public class RedLightDetector : MonoBehaviour
                 // Detecta apenas se o ângulo for inferior a um valor, indicando que o player está na direção correta
                 if (angulo < 90f)  // Ajuste o ângulo conforme necessário
                 {
+                    
                     Debug.Log("MULTAAAAA!!!! PLAYER PASSOU NO SINAL VERMELHO!");
                     // Aqui você pode adicionar a punição, som, etc.
                 }
             }
         }
     }
+       
 }
