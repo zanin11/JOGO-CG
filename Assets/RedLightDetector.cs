@@ -1,9 +1,14 @@
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RedLightDetector : MonoBehaviour
 {
     public TrafficLights trafficLight; // Referência ao script do semáforo
     public Transform semaforoFrente; // Ponto de referência que indica a frente do semáforo (adicionado manualmente na hierarquia)
+    public AtualizaDinheiro atualizaDinheiro; 
+
+    public Text TxtDinheiro;
+    int dinheiro;
 
     void OnTriggerEnter(Collider other)
     {
@@ -24,10 +29,13 @@ public class RedLightDetector : MonoBehaviour
                 {
                     
                     Debug.Log("MULTAAAAA!!!! PLAYER PASSOU NO SINAL VERMELHO!");
-                    // Aqui você pode adicionar a punição, som, etc.
+                    dinheiro = int.Parse(TxtDinheiro.text.Replace(" ", "").Trim());
+                    dinheiro -= 300;
+                    TxtDinheiro.text = dinheiro.ToString();
                 }
             }
         }
     }
+
        
 }

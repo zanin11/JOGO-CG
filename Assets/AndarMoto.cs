@@ -2,26 +2,56 @@ using UnityEngine;
 
 public class MotoController : MonoBehaviour
 {
-    public float speed = 10f;  // Velocidade da moto
-    public float turnSpeed = 50f;  // Velocidade de rotação
+    private float accelerationInput; // Entrada do usuário (W ou S)
+    public float accelerationForward = 5f; // Aceleração para frente
+    public float accelerationBackward = 22f; // Aceleração para trás
+    public float decelerationRate = 12f; // Taxa de desaceleração
+    public float maxForwardSpeed = 17f;  // Velocidade máxima para frente
+    public float maxBackwardSpeed = -10f; // Velocidade máxima para trás
+    public float turnSpeed = 155f;  // Velocidade de rotação
     public float raycastDistance = 5f;  // Distância do Raycast para detectar o solo
     public float hoverHeight = 1.2f;  // Altura que a moto deve ficar em relação ao solo
+    public float currentSpeed; // Velocidade atual da moto
     public LayerMask groundLayer;  // Camada que define o que é considerado terreno (ruas)
+
+    public Text TxtVelocimetro;
+
+    float velocidade;
 
     private Rigidbody rb;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        TxtVelocimetro.txt = "0 km/h";
     }
 
     void Update()
     {
         // Movimentação para frente e para trás (W e S)
-        float moveInput = Input.GetAxis("Vertical");
-        Vector3 move = transform.forward * moveInput * speed * Time.deltaTime;
+        /// Movimentação com aceleração variável e desaceleração
+        accelerationInput = Input.GetAxis("Vertical");
 
-        // Aplicar o movimento à moto
+        // Acelerar ou desacelerar com base na entrada
+        if (accelerationInput > 0) // Acelerando para frente
+        {
+            currentSpeed += accelerationForward * accelerationInput * Time.deltaTime;
+        }
+        else if (accelerationInput < 0) // Acelerando para trás
+        {
+            currentSpeed += accelerationBackward * accelerationInput * Time.deltaTime;
+        }
+        else // Desacelerando
+        {
+            currentSpeed -= decelerationRate * Mathf.Sign(currentSpeed) * Time.deltaTime;
+        }
+
+        // Limitar a velocidade máxima
+        currentSpeed = Mathf.Clamp(currentSpeed, maxBackwardSpeed, maxForwardSpeed);
+
+        TxtVelocimetro.txt = currentSpeed.ToString("F1") + " km/h";
+
+        Vector3 move = transform.forward * currentSpeed * Time.deltaTime;
         rb.MovePosition(rb.position + move);
 
         // Rotação (A e D)
