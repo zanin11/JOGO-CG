@@ -25,7 +25,8 @@ public class SpeedRadarDetector : MonoBehaviour
             // Verifica a direção de movimento do jogador. 
             // Usamos a diferença na posição para determinar a direção de movimento.
             Vector3 movimentoJogador = other.transform.position - motoController.lastPosition; // 'lastPosition' é uma variável que deve ser atualizada no MotoController
-            bool movendoParaFrente = Vector3.Dot(movimentoJogador.normalized, radarPosition.forward) > 0;
+            bool movendoParaFrente = Vector3.Dot(movimentoJogador.normalized, radarPosition.forward) < 0;
+            Debug.Log("operacao DOT: " + Vector3.Dot(movimentoJogador.normalized, radarPosition.forward));
             Debug.Log(movendoParaFrente);
 
             // Aplica a multa apenas se o jogador estiver na frente, se movendo para o radar e acima da velocidade

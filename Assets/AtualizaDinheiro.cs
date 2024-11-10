@@ -12,7 +12,6 @@ public class AtualizaDinheiro : MonoBehaviour
     }
     public void AtualizarTexto(string novo_valor)
     {
-        Debug.Log("To na funcao atualizar");
         //dinheiro = int.Parse(novo_valor.Replace("R$", "").Trim());
         TxtDinheiro.text = novo_valor;
         Debug.Log("Texto de dinheiro atualizado: " + TxtDinheiro.text); 

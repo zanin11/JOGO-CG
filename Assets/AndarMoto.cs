@@ -12,6 +12,8 @@ public class MotoController : MonoBehaviour
     public float raycastDistance = 5f;  // Distância do Raycast para detectar o solo
     public float hoverHeight = 1.2f;  // Altura que a moto deve ficar em relação ao solo
     public float currentSpeed; // Velocidade atual da moto
+
+    private float compensacao;
     public LayerMask groundLayer;  // Camada que define o que é considerado terreno (ruas)
     public Text TxtVelocimetro;
     public Vector3 lastPosition;
@@ -31,10 +33,13 @@ public class MotoController : MonoBehaviour
         /// Movimentação com aceleração variável e desaceleração
         accelerationInput = Input.GetAxis("Vertical");
 
+        if(currentSpeed < 0) compensacao = 2f;
+        else compensacao = 1f;
+
         // Acelerar ou desacelerar com base na entrada
         if (accelerationInput > 0) // Acelerando para frente
         {
-            currentSpeed += accelerationForward * accelerationInput * Time.deltaTime;
+            currentSpeed += accelerationForward * accelerationInput * Time.deltaTime * compensacao; 
         }
         else if (accelerationInput < 0) // Acelerando para trás
         {
@@ -48,7 +53,7 @@ public class MotoController : MonoBehaviour
         // Limitar a velocidade máxima
         currentSpeed = Mathf.Clamp(currentSpeed, maxBackwardSpeed, maxForwardSpeed);
 
-        TxtVelocimetro.text = currentSpeed.ToString("F1") + " km/h";
+        TxtVelocimetro.text = (Mathf.Abs(currentSpeed)).ToString("F1") + " km/h";
 
         Vector3 move = transform.forward * currentSpeed * Time.deltaTime;
         rb.MovePosition(rb.position + move);

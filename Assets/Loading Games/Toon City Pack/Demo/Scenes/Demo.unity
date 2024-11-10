@@ -2309,7 +2309,6 @@ MonoBehaviour:
   audioSource: {fileID: 195596631}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
-  dinheiroAnimator: {fileID: 0}
   tempoDesdeAtivacao: 0
 --- !u!136 &71967853
 CapsuleCollider:
@@ -15466,7 +15465,6 @@ MonoBehaviour:
   audioSource: {fileID: 1183301344}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
-  dinheiroAnimator: {fileID: 0}
   tempoDesdeAtivacao: 0
 --- !u!136 &421309658
 CapsuleCollider:
@@ -17155,7 +17153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 29, y: -531}
+  m_AnchoredPosition: {x: 114, y: -298}
   m_SizeDelta: {x: 120, y: 0}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &470943008
@@ -26478,7 +26476,6 @@ MonoBehaviour:
   audioSource: {fileID: 23131137}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
-  dinheiroAnimator: {fileID: 0}
   tempoDesdeAtivacao: 0
 --- !u!136 &742448398
 CapsuleCollider:
@@ -36878,7 +36875,6 @@ MonoBehaviour:
   audioSource: {fileID: 597101374}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
-  dinheiroAnimator: {fileID: 0}
   tempoDesdeAtivacao: 0
 --- !u!136 &1013366721
 CapsuleCollider:
@@ -40319,7 +40315,6 @@ MonoBehaviour:
   audioSource: {fileID: 1591416610}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
-  dinheiroAnimator: {fileID: 0}
   tempoDesdeAtivacao: 0
 --- !u!136 &1088470665
 CapsuleCollider:
@@ -48509,7 +48504,6 @@ MonoBehaviour:
   audioSource: {fileID: 195596631}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
-  dinheiroAnimator: {fileID: 0}
   tempoDesdeAtivacao: 0
 --- !u!114 &1249977746
 MonoBehaviour:
@@ -50369,7 +50363,6 @@ MonoBehaviour:
   audioSource: {fileID: 93670711}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
-  dinheiroAnimator: {fileID: 0}
   tempoDesdeAtivacao: 0
 --- !u!136 &1290028099
 CapsuleCollider:
@@ -65521,8 +65514,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1.0736825, y: 1.0930083, z: 0.13304557}
+  m_Center: {x: -0.03684486, y: -0.046501234, z: 0.43345648}
 --- !u!1001 &1630385378
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71624,7 +71617,6 @@ MonoBehaviour:
   audioSource: {fileID: 1591416610}
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
-  dinheiroAnimator: {fileID: 0}
   tempoDesdeAtivacao: 0
 --- !u!136 &1784849196
 CapsuleCollider:
