@@ -11,7 +11,7 @@ public class PontoEntrega : MonoBehaviour
     public AudioSource audioSource; // Referência ao AudioSource
     public AudioClip dinheiroClip; // Referência ao Clip de áudio
     public bool estaAtivo = false;
-
+    public Animator dinheiroAnimator;
     public float tempoDesdeAtivacao;
     int dinheiro;
     //public int dinheiro = parseInt(TxtDinheiro.text);
@@ -77,6 +77,7 @@ public class PontoEntrega : MonoBehaviour
     if (atualizaDinheiro != null)
         {
          atualizaDinheiro.AtualizarTexto(dinheiro);
+         dinheiroAnimator.Play("DinheiroSubindo");  // Toca a animação
         }
         else
         {

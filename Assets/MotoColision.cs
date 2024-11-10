@@ -9,6 +9,7 @@ public class MotoCollision : MonoBehaviour
     public AudioSource audioSource; // Referência ao AudioSource
     public AudioClip collisonClip; // Referência ao Clip de áudio
     int dinheiro;
+    public Animator dinheiroAnimator;
     // Inicializa o Rigidbody da moto e salva a posição inicial
     void Start()
     {
@@ -88,6 +89,7 @@ public class MotoCollision : MonoBehaviour
         if (atualizaDinheiro != null)
         {
             atualizaDinheiro.AtualizarTexto(dinheiro);
+            //dinheiroAnimator.Play("DinheiroSubindo");  // Toca a animação
         }
         else
         {

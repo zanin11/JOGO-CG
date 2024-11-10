@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.UI;
 public class MotoController : MonoBehaviour
 {
     private float accelerationInput; // Entrada do usuário (W ou S)
@@ -13,9 +13,8 @@ public class MotoController : MonoBehaviour
     public float hoverHeight = 1.2f;  // Altura que a moto deve ficar em relação ao solo
     public float currentSpeed; // Velocidade atual da moto
     public LayerMask groundLayer;  // Camada que define o que é considerado terreno (ruas)
-
     public Text TxtVelocimetro;
-
+    public Vector3 lastPosition;
     float velocidade;
 
     private Rigidbody rb;
@@ -23,7 +22,7 @@ public class MotoController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        TxtVelocimetro.txt = "0 km/h";
+        TxtVelocimetro.text = "0 km/h";
     }
 
     void Update()
@@ -49,7 +48,7 @@ public class MotoController : MonoBehaviour
         // Limitar a velocidade máxima
         currentSpeed = Mathf.Clamp(currentSpeed, maxBackwardSpeed, maxForwardSpeed);
 
-        TxtVelocimetro.txt = currentSpeed.ToString("F1") + " km/h";
+        TxtVelocimetro.text = currentSpeed.ToString("F1") + " km/h";
 
         Vector3 move = transform.forward * currentSpeed * Time.deltaTime;
         rb.MovePosition(rb.position + move);
@@ -62,6 +61,7 @@ public class MotoController : MonoBehaviour
 
         // Ajustar a altura da moto com Raycast
         AdjustToTerrain();
+        lastPosition = transform.position;
     }
 
     void AdjustToTerrain()
