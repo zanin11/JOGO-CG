@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/menu.unity
     guid: e63d26ab86e38954b9af34866dbb4c3a
+  - enabled: 0
+    path: Assets/LoadingScene.unity
+    guid: 517f14f40035c1349ab7ec156d94e2a6
   - enabled: 1
     path: Assets/Loading Games/Toon City Pack/Demo/Scenes/Demo.unity
     guid: 54d57a49b87a3f7468e686600a20aa5f

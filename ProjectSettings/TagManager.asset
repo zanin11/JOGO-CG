@@ -6,6 +6,11 @@ TagManager:
   tags:
   - Obstacle
   - PontoEntrega
+  - IgnoreTheme
+  - Button
+  - TelaVitoria
+  - TelaDerrota
+  - TxtDinheiro
   layers:
   - Default
   - TransparentFX
