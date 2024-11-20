@@ -20,7 +20,8 @@ public class MotoController : MonoBehaviour
     float velocidade;
 
     private Rigidbody rb;
-
+    public float minY = 0f; // Assuming you don't want the player to go below the ground
+    public float maxY = 0.905498f;
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -79,7 +80,12 @@ public class MotoController : MonoBehaviour
             // Se atingir o solo (rua), ajustar a altura da moto para ficar acima do solo
             Vector3 targetPosition = rb.position;
             targetPosition.y = hit.point.y + hoverHeight;  // Ajusta a altura com base na colisão detectada
+
+            // Limita a altura da moto para que não ultrapasse os valores definidos
+            targetPosition.y = Mathf.Clamp(targetPosition.y, minY, maxY);
+
             rb.MovePosition(targetPosition);
         }
     }
+
 }

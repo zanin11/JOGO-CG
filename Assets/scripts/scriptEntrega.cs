@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 public class PontoEntrega : MonoBehaviour
 {
     public bool entregaFeita = false;    
@@ -14,6 +15,8 @@ public class PontoEntrega : MonoBehaviour
     //public Animator dinheiroAnimator;
     public float tempoDesdeAtivacao;
     int dinheiro;
+    public Animator animator;
+    public GameObject animatedObject;
     //public int dinheiro = parseInt(TxtDinheiro.text);
     private void OnTriggerEnter(Collider other)
     {
@@ -23,6 +26,10 @@ public class PontoEntrega : MonoBehaviour
             {
                 entregaFeita = true;
                 Debug.Log("Entrega realizada!");
+                // Ativar animação e esperar finalização (corrotina necessária)
+                /*StartCoroutine(PlayMoneyAnimation());
+                yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length); // Aguarda o tempo da animação
+                animatedObject.SetActive(false); // Desativa novamente*/
                 GameObject otherGameObject = GameObject.Find("TxtQtdPedidos");
                 scriptGerenciadorEntrega = otherGameObject.GetComponent<GerenciadorDeEntregas>();
                 if(scriptGerenciadorEntrega != null)
@@ -38,6 +45,19 @@ public class PontoEntrega : MonoBehaviour
             }
         }
     }
+
+    /*private IEnumerator PlayMoneyAnimation()
+    {
+        // Ativa o objeto e toca a animação
+        animatedObject.SetActive(true);
+        animator.Play("MoneyAnimation");
+
+        // Aguarda o fim da animação
+        yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(0)[0].clip.length);
+
+        // Desativa o objeto novamente
+        animatedObject.SetActive(false);
+    }*/
 
     public void AtivarPonto()
     {

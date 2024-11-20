@@ -29,17 +29,17 @@ public class MotoCollision : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         // Verifica se a moto colidiu com um obstáculo
-        if (collision.gameObject.tag == "Obstacle")  // Suponha que o obstáculo tenha a tag 'Obstacle'
+        if (collision.gameObject.tag == "Obstacle" || collision.gameObject.tag == "Untagged")   // Suponha que o obstáculo tenha a tag 'Obstacle'
         {
             Debug.Log("Moto colidiu com um obstáculo!");
             
-
-            // Atualiza o texto na interface
-            audioSource.PlayOneShot(collisonClip);
-            dinheiro = int.Parse(TxtDinheiro.text.Replace(" ", "").Trim());
-            dinheiro-=500;
-            AtualizarTexto(" " + dinheiro.ToString());
-            
+            if(collision.gameObject.tag == "Obstacle"){
+                // Atualiza o texto na interface
+                audioSource.PlayOneShot(collisonClip);
+                dinheiro = int.Parse(TxtDinheiro.text.Replace(" ", "").Trim());
+                dinheiro-=500;
+                AtualizarTexto(" " + dinheiro.ToString());
+            }
 
             if (rb != null)
             {
