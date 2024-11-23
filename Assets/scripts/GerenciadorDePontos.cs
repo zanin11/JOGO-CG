@@ -5,6 +5,7 @@ public class GerenciadorDePontos : MonoBehaviour
 {
     public List<PontoEntrega> pontosEntrega = new List<PontoEntrega>();
 
+    public List<PontoEntrega> pontosAtivos = new List<PontoEntrega>();
     public GerenciadorDeEntregas scriptGerenciadorEntrega;
     public float tempoParaProximoPonto = 10f; // Tempo em segundos
 
@@ -25,7 +26,7 @@ public class GerenciadorDePontos : MonoBehaviour
         // Ativa um ponto aleatório no início
         int indiceAleatorio = Random.Range(0, pontosEntrega.Count);
         pontosEntrega[indiceAleatorio].AtivarPonto();
-        Debug.Log("Ponto inicial: " + pontosEntrega[indiceAleatorio].name);
+        pontosAtivos.Add(pontosEntrega[indiceAleatorio]);
     }
 
     public void Update()
@@ -45,9 +46,8 @@ public class GerenciadorDePontos : MonoBehaviour
                 indiceAleatorio = Random.Range(0, pontosEntrega.Count);
             }while(pontosEntrega[indiceAleatorio].estaAtivo == true && cont < 8);
 
-            Debug.Log("Ponto ativo: " + pontosEntrega[indiceAleatorio].name);
             pontosEntrega[indiceAleatorio].AtivarPonto();
-
+            AtualizaPontosAtivos();
             tempoDesdeUltimoPonto = 0;
         }
 
@@ -59,10 +59,30 @@ public class GerenciadorDePontos : MonoBehaviour
                 ponto.tempoDesdeAtivacao += Time.deltaTime;
                 if (ponto.tempoDesdeAtivacao >= tempoMaximoPontoAtivo)
                 {
-                    Debug.Log("Desativando ponto " + ponto.name);
                     ponto.DesativarPonto();
+                    AtualizaPontosAtivos();
                 }
             }
         }
+    }
+
+    public void AtualizaPontosAtivos(){
+        foreach (PontoEntrega ponto in pontosEntrega)
+        {
+            if (ponto.estaAtivo && !pontosAtivos.Contains(ponto))
+            {
+                pontosAtivos.Add(ponto);
+            }
+            else if (!ponto.estaAtivo && pontosAtivos.Contains(ponto))
+            {
+                pontosAtivos.Remove(ponto);
+            }
+        }
+        Debug.Log("Lista de pontos ativos: ");
+        foreach (PontoEntrega ponto in pontosAtivos)
+        {
+            Debug.Log(ponto.gameObject.name);
+        }
+        Debug.Log("Apontando para ponto: " + pontosAtivos[0].gameObject.name);
     }
 }

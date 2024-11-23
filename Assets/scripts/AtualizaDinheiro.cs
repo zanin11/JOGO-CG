@@ -8,7 +8,7 @@ public class AtualizaDinheiro : MonoBehaviour
 {
     public Text TxtDinheiro;  // Referência ao Text na UI para exibir o dinheiro
     public int dinheiro;
-    public int valorVitoria = 1200;
+    public int valorVitoria = 2000;
     public int valorDerrota = -1000;
     [SerializeField] private GameObject telaVitoria;        // Referência para a tela de vitória
     [SerializeField] private GameObject telaDerrota;        // Referência para a tela de derrota
@@ -43,7 +43,6 @@ public class AtualizaDinheiro : MonoBehaviour
     {
         //dinheiro = int.Parse(novo_valor.Replace("R$", "").Trim());
         TxtDinheiro.text = novo_valor;
-        Debug.Log("Texto de dinheiro atualizado: " + TxtDinheiro.text); 
         VerificaEstadoDoJogo(novo_valor);
     }
 

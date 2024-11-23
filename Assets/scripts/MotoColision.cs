@@ -31,7 +31,6 @@ public class MotoCollision : MonoBehaviour
         // Verifica se a moto colidiu com um obstáculo
         if (collision.gameObject.tag == "Obstacle" || collision.gameObject.tag == "Untagged")   // Suponha que o obstáculo tenha a tag 'Obstacle'
         {
-            Debug.Log("Moto colidiu com um obstáculo!");
             
             if(collision.gameObject.tag == "Obstacle"){
                 // Atualiza o texto na interface
@@ -70,7 +69,6 @@ public class MotoCollision : MonoBehaviour
         // Verifica se a colisão foi com um obstáculo
         if (collision.gameObject.tag == "Obstacle")
         {
-            Debug.Log("Moto saiu da colisão com: " + collision.gameObject.name);
             if (rb != null)
             {
                 // Libera o movimento no eixo Y após a colisão

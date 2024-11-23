@@ -6,6 +6,8 @@ public class PontoEntrega : MonoBehaviour
     public bool entregaFeita = false;    
 
     GerenciadorDeEntregas  scriptGerenciadorEntrega;
+
+    GerenciadorDePontos scriptGerenciadorDePontos;
     
     public Text TxtDinheiro;    // Referência ao Text na UI para exibir o dinheiro
     public AtualizaDinheiro atualizaDinheiro; 
@@ -42,6 +44,8 @@ public class PontoEntrega : MonoBehaviour
                 dinheiro+=200;
                 AtualizarTexto(" " + dinheiro.ToString());
                 FindObjectOfType<GerenciadorDePontos>().Update();
+                DesativarPonto();
+                FindObjectOfType<GerenciadorDePontos>().AtualizaPontosAtivos();
             }
         }
     }
@@ -80,6 +84,8 @@ public class PontoEntrega : MonoBehaviour
         GameObject otherGameObject = GameObject.Find("TxtQtdPedidos");
         scriptGerenciadorEntrega = otherGameObject.GetComponent<GerenciadorDeEntregas>();
         scriptGerenciadorEntrega.RemoverPedido(); //retira pedido
+
+
     }
 
 
