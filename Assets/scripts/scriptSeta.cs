@@ -34,7 +34,7 @@ public class DirecaoSeta : MonoBehaviour
         {
             // Caso não haja pontos ativos, pode desativar a seta ou manter sua posição
             pontoDeEntregaAtual = null;
-            Debug.Log("Nenhum ponto de entrega ativo!");
+            //Debug.Log("Nenhum ponto de entrega ativo!");
         }
     }
 }

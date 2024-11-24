@@ -2495,8 +2495,9 @@ MonoBehaviour:
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
   tempoDesdeAtivacao: 0
-  animator: {fileID: 520380209}
-  animatedObject: {fileID: 0}
+  animationComponent: {fileID: 432854430}
+  animatedObject: {fileID: 432854427}
+  animationName: MoneyAnimation
 --- !u!136 &71967853
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9560,81 +9561,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6640174995143383478, guid: 55994d471996942828c8e8550037daef, type: 3}
   m_PrefabInstance: {fileID: 1195121098}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &251127445
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 251127446}
-  - component: {fileID: 251127448}
-  - component: {fileID: 251127447}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &251127446
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 251127445}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1981683976}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 872, y: 699}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &251127447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 251127445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.9415095, b: 0.9415095, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fbf7f7d1e9f6e144f81b35dbb81881f2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &251127448
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 251127445}
-  m_CullTransparentMesh: 1
 --- !u!1001 &251493656
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11792,6 +11718,10 @@ MonoBehaviour:
   trafficLight: {fileID: 781093624}
   semaforoFrente: {fileID: 781093627}
   atualizaDinheiro: {fileID: 0}
+  LoseText: {fileID: 942108961}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
   TxtDinheiro: {fileID: 1304731574}
 --- !u!1 &299104916 stripped
 GameObject:
@@ -14191,6 +14121,10 @@ MonoBehaviour:
   trafficLight: {fileID: 1909499271}
   semaforoFrente: {fileID: 1909499274}
   atualizaDinheiro: {fileID: 0}
+  LoseText: {fileID: 942108961}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
   TxtDinheiro: {fileID: 1304731574}
 --- !u!1 &352076165 stripped
 GameObject:
@@ -14688,6 +14622,10 @@ MonoBehaviour:
   trafficLight: {fileID: 1432566786}
   semaforoFrente: {fileID: 1432566789}
   atualizaDinheiro: {fileID: 0}
+  LoseText: {fileID: 942108961}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
   TxtDinheiro: {fileID: 1304731574}
 --- !u!1 &361589325 stripped
 GameObject:
@@ -15086,6 +15024,108 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1263798714}
   m_SourcePrefab: {fileID: 100100000, guid: 6acdc19f4d56b4b649b7c0ba24c307a6, type: 3}
+--- !u!1 &367199088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 367199089}
+  - component: {fileID: 367199092}
+  - component: {fileID: 367199091}
+  - component: {fileID: 367199090}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &367199089
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367199088}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2058664733}
+  m_Father: {fileID: 2022857345}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &367199090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367199088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &367199091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367199088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &367199092
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367199088}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1001 &369152199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17107,8 +17147,9 @@ MonoBehaviour:
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
   tempoDesdeAtivacao: 0
-  animator: {fileID: 520380209}
-  animatedObject: {fileID: 0}
+  animationComponent: {fileID: 432854430}
+  animatedObject: {fileID: 432854427}
+  animationName: MoneyAnimation
 --- !u!136 &421309658
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -17694,6 +17735,98 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 760039646653639976, guid: 9efb2638cadf04a7d9f711b8a141df62, type: 3}
   m_PrefabInstance: {fileID: 429325561}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &432854427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 432854428}
+  - component: {fileID: 432854430}
+  - component: {fileID: 432854432}
+  - component: {fileID: 432854431}
+  m_Layer: 5
+  m_Name: x66bngqt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &432854428
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432854427}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -16.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1981683976}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -733, y: -368}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!111 &432854430
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432854427}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 730f534d082315d4d94ea1ee1af20df7, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 730f534d082315d4d94ea1ee1af20df7, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &432854431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432854427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: fbf7f7d1e9f6e144f81b35dbb81881f2, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &432854432
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432854427}
+  m_CullTransparentMesh: 1
 --- !u!1001 &433355592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19571,6 +19704,10 @@ MonoBehaviour:
   trafficLight: {fileID: 1108428846}
   semaforoFrente: {fileID: 1108428849}
   atualizaDinheiro: {fileID: 0}
+  LoseText: {fileID: 942108961}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
   TxtDinheiro: {fileID: 1304731574}
 --- !u!4 &491957130 stripped
 Transform:
@@ -20835,14 +20972,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 520380208}
-  - component: {fileID: 520380209}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: MoneyImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &520380208
 Transform:
   m_ObjectHideFlags: 0
@@ -20852,34 +20988,13 @@ Transform:
   m_GameObject: {fileID: 520380207}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 44, y: -996.9458, z: -33.9}
+  m_LocalPosition: {x: -25, y: -905, z: -33.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1981683976}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!95 &520380209
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 520380207}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: c4c398eadde888b449803e9bfedd8df2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &521252508
 GameObject:
   m_ObjectHideFlags: 0
@@ -26993,7 +27108,10 @@ MonoBehaviour:
   atualizaDinheiro: {fileID: 663290419}
   audioSource: {fileID: 826250726}
   collisonClip: {fileID: 8300000, guid: 3a0ba56f824caa84abe71c3028dbfa11, type: 3}
-  dinheiroAnimator: {fileID: 0}
+  LoseText: {fileID: 942108961}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
 --- !u!65 &663290417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29331,7 +29449,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedLimit: 15
   radarPosition: {fileID: 1678376095}
+  LoseText: {fileID: 942108961}
   TxtDinheiro: {fileID: 1304731574}
+  atualizaDinheiro: {fileID: 428571119}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
 --- !u!65 &721331642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30007,8 +30130,9 @@ MonoBehaviour:
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
   tempoDesdeAtivacao: 0
-  animator: {fileID: 520380209}
-  animatedObject: {fileID: 0}
+  animationComponent: {fileID: 432854430}
+  animatedObject: {fileID: 432854427}
+  animationName: MoneyAnimation
 --- !u!136 &742448398
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -32978,7 +33102,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedLimit: 15
   radarPosition: {fileID: 1650070115}
+  LoseText: {fileID: 942108961}
   TxtDinheiro: {fileID: 1304731574}
+  atualizaDinheiro: {fileID: 428571119}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
 --- !u!65 &798185434
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39013,6 +39142,102 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 1, z: 0.25000003}
   m_Center: {x: 0, y: 0.5, z: -0.000000018626451}
+--- !u!1 &942108958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 942108959}
+  - component: {fileID: 942108962}
+  - component: {fileID: 942108961}
+  - component: {fileID: 942108963}
+  m_Layer: 0
+  m_Name: LoseText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &942108959
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942108958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1000913756}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 673, y: 205}
+  m_SizeDelta: {x: 800, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &942108961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942108958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.020754695, b: 0.020754695, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 70
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 7
+    m_MaxSize: 70
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &942108962
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942108958}
+  m_CullTransparentMesh: 1
+--- !u!111 &942108963
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942108958}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 9944516bf2817d141a7be2a6f2e47da6, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 9944516bf2817d141a7be2a6f2e47da6, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1 &942329961 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6640174995143383478, guid: 55994d471996942828c8e8550037daef, type: 3}
@@ -41167,6 +41392,10 @@ MonoBehaviour:
   trafficLight: {fileID: 511399406}
   semaforoFrente: {fileID: 511399409}
   atualizaDinheiro: {fileID: 0}
+  LoseText: {fileID: 942108961}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
   TxtDinheiro: {fileID: 1304731574}
 --- !u!65 &987958023
 BoxCollider:
@@ -41640,6 +41869,108 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1326498688}
   m_SourcePrefab: {fileID: 100100000, guid: 3251c781defe1407c8f424ea546826e9, type: 3}
+--- !u!1 &1000913755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1000913756}
+  - component: {fileID: 1000913759}
+  - component: {fileID: 1000913758}
+  - component: {fileID: 1000913757}
+  m_Layer: 0
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1000913756
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000913755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 942108959}
+  m_Father: {fileID: 1143354713}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1000913757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000913755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1000913758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000913755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1000913759
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000913755}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1001 &1002492286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42064,8 +42395,9 @@ MonoBehaviour:
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
   tempoDesdeAtivacao: 0
-  animator: {fileID: 520380209}
-  animatedObject: {fileID: 0}
+  animationComponent: {fileID: 432854430}
+  animatedObject: {fileID: 432854427}
+  animationName: MoneyAnimation
 --- !u!136 &1013366721
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -46117,8 +46449,9 @@ MonoBehaviour:
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
   tempoDesdeAtivacao: 0
-  animator: {fileID: 520380209}
-  animatedObject: {fileID: 0}
+  animationComponent: {fileID: 432854430}
+  animatedObject: {fileID: 432854427}
+  animationName: MoneyAnimation
 --- !u!136 &1088470665
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -48972,6 +49305,38 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.6014367, y: 1.4625877, z: 2.9179754}
   m_Center: {x: 0.000000059604645, y: 0.941457, z: 0.0570125}
+--- !u!1 &1143354712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1143354713}
+  m_Layer: 0
+  m_Name: LoseMoney
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1143354713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1143354712}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1148, y: 737.5909, z: -4.8859615}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1000913756}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1144786988
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -50648,6 +51013,10 @@ MonoBehaviour:
   trafficLight: {fileID: 206410683}
   semaforoFrente: {fileID: 206410686}
   atualizaDinheiro: {fileID: 0}
+  LoseText: {fileID: 942108961}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
   TxtDinheiro: {fileID: 1304731574}
 --- !u!1001 &1166070715
 PrefabInstance:
@@ -55504,8 +55873,9 @@ MonoBehaviour:
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
   tempoDesdeAtivacao: 0
-  animator: {fileID: 520380209}
-  animatedObject: {fileID: 0}
+  animationComponent: {fileID: 432854430}
+  animatedObject: {fileID: 432854427}
+  animationName: MoneyAnimation
 --- !u!114 &1249977746
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57674,7 +58044,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedLimit: 15
   radarPosition: {fileID: 2075029023}
+  LoseText: {fileID: 942108961}
   TxtDinheiro: {fileID: 1304731574}
+  atualizaDinheiro: {fileID: 428571119}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
 --- !u!65 &1289365247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57736,8 +58111,9 @@ MonoBehaviour:
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
   tempoDesdeAtivacao: 0
-  animator: {fileID: 520380209}
-  animatedObject: {fileID: 0}
+  animationComponent: {fileID: 432854430}
+  animatedObject: {fileID: 432854427}
+  animationName: MoneyAnimation
 --- !u!136 &1290028099
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -59203,7 +59579,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedLimit: 15
   radarPosition: {fileID: 1311754086}
+  LoseText: {fileID: 942108961}
   TxtDinheiro: {fileID: 1304731574}
+  atualizaDinheiro: {fileID: 428571119}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
 --- !u!65 &1323667457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63870,6 +64251,9 @@ MonoBehaviour:
   scriptGerenciadorEntrega: {fileID: 0}
   tempoParaProximoPonto: 10
   tempoMaximoPontoAtivo: 30
+  animationComponent: {fileID: 2058664737}
+  animatedObject: {fileID: 2058664732}
+  animationName: ShowNovoPedidoAnimation
 --- !u!4 &1405167991
 Transform:
   m_ObjectHideFlags: 0
@@ -69303,7 +69687,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedLimit: 15
   radarPosition: {fileID: 666367042}
+  LoseText: {fileID: 942108961}
   TxtDinheiro: {fileID: 1304731574}
+  atualizaDinheiro: {fileID: 428571119}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
 --- !u!65 &1507749875
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75262,7 +75651,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speedLimit: 15
   radarPosition: {fileID: 530527876}
+  LoseText: {fileID: 942108961}
   TxtDinheiro: {fileID: 1304731574}
+  atualizaDinheiro: {fileID: 428571119}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
 --- !u!65 &1629491195
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -80961,7 +81355,10 @@ MonoBehaviour:
   atualizaDinheiro: {fileID: 0}
   audioSource: {fileID: 0}
   collisonClip: {fileID: 0}
-  dinheiroAnimator: {fileID: 0}
+  LoseText: {fileID: 0}
+  animationComponent: {fileID: 0}
+  animatedObject: {fileID: 0}
+  animationName: 
 --- !u!65 &1761040724
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81325,6 +81722,10 @@ MonoBehaviour:
   trafficLight: {fileID: 0}
   semaforoFrente: {fileID: 0}
   atualizaDinheiro: {fileID: 0}
+  LoseText: {fileID: 0}
+  animationComponent: {fileID: 0}
+  animatedObject: {fileID: 0}
+  animationName: 
   TxtDinheiro: {fileID: 0}
 --- !u!1 &1767829980 stripped
 GameObject:
@@ -82370,8 +82771,9 @@ MonoBehaviour:
   dinheiroClip: {fileID: 8300000, guid: 3e7a3ba70941c2c4382db3ba5f401e0c, type: 3}
   estaAtivo: 0
   tempoDesdeAtivacao: 0
-  animator: {fileID: 520380209}
-  animatedObject: {fileID: 0}
+  animationComponent: {fileID: 432854430}
+  animatedObject: {fileID: 432854427}
+  animationName: MoneyAnimation
 --- !u!136 &1784849196
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -92523,7 +92925,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 251127446}
+  - {fileID: 432854428}
   m_Father: {fileID: 520380208}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -94413,6 +94815,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2020861411}
   m_CullTransparentMesh: 1
+--- !u!1 &2022857344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2022857345}
+  m_Layer: 0
+  m_Name: NovoPedido
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2022857345
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022857344}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1437.3859, y: 550.9112, z: 3.1409428}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 367199089}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2028104859 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3000974226270739169, guid: c2557fab3eae64b569f89f31cc1393ac, type: 3}
@@ -95576,6 +96010,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 760039646653639976, guid: 9efb2638cadf04a7d9f711b8a141df62, type: 3}
   m_PrefabInstance: {fileID: 2057598143}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2058664732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2058664733}
+  - component: {fileID: 2058664736}
+  - component: {fileID: 2058664735}
+  - component: {fileID: 2058664737}
+  m_Layer: 5
+  m_Name: TextNovoPedido
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2058664733
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058664732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 367199089}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 101}
+  m_SizeDelta: {x: 820, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2058664735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058664732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 100
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 300
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Novo Pedido!
+--- !u!222 &2058664736
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058664732}
+  m_CullTransparentMesh: 1
+--- !u!111 &2058664737
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2058664732}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 9f7c2a19335538e499d99ff7b519fe03, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 9f7c2a19335538e499d99ff7b519fe03, type: 2}
+  - {fileID: 7400000, guid: 5762935b705c0a146a0e9065ff2b5766, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!1001 &2058921489
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -98036,6 +98567,10 @@ MonoBehaviour:
   trafficLight: {fileID: 1680369699}
   semaforoFrente: {fileID: 1680369702}
   atualizaDinheiro: {fileID: 0}
+  LoseText: {fileID: 942108961}
+  animationComponent: {fileID: 942108963}
+  animatedObject: {fileID: 942108958}
+  animationName: LoseMoneyAnimation
   TxtDinheiro: {fileID: 1304731574}
 --- !u!1 &2096754512 stripped
 GameObject:
@@ -102114,3 +102649,5 @@ SceneRoots:
   - {fileID: 520380208}
   - {fileID: 428571120}
   - {fileID: 1052340997}
+  - {fileID: 2022857345}
+  - {fileID: 1143354713}

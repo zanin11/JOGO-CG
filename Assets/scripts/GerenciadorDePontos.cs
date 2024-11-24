@@ -11,7 +11,11 @@ public class GerenciadorDePontos : MonoBehaviour
 
     public float tempoMaximoPontoAtivo = 30f; // Tempo em segundos
     private float tempoDesdeUltimoPonto;
-
+    public Animation animationComponent;  // Referência ao componente Animation
+    public GameObject animatedObject;    // Referência ao GameObject que contém a animação
+    public string animationName;
+    //public string animationName = "ShowNovoPedidoAnimation"; // Nome da animação a ser executada
+    //public string animationName2 = "hiddenNovoPedidoAnimation";
     void Start()
     {
         // Adicione todos os pontos de entrega à lista
@@ -27,6 +31,7 @@ public class GerenciadorDePontos : MonoBehaviour
         int indiceAleatorio = Random.Range(0, pontosEntrega.Count);
         pontosEntrega[indiceAleatorio].AtivarPonto();
         pontosAtivos.Add(pontosEntrega[indiceAleatorio]);
+        PlayAnimation("ShowNovoPedidoAnimation");
     }
 
     public void Update()
@@ -43,6 +48,7 @@ public class GerenciadorDePontos : MonoBehaviour
             int cont = 0;
             do{
                 cont++;
+                PlayAnimation("ShowNovoPedidoAnimation");
                 indiceAleatorio = Random.Range(0, pontosEntrega.Count);
             }while(pontosEntrega[indiceAleatorio].estaAtivo == true && cont < 8);
 
@@ -63,6 +69,32 @@ public class GerenciadorDePontos : MonoBehaviour
                     AtualizaPontosAtivos();
                 }
             }
+        }
+    }
+    public void PlayAnimation(string animationName)
+    {
+        if (animatedObject != null && animationComponent != null)
+        {
+            animatedObject.SetActive(true); // Torna o GameObject ativo
+            animationComponent.Play(animationName); // Reproduz a animação
+            Debug.Log("Animação Iniciada!");
+
+            // Chama a corrotina para desativar o objeto após a animação
+            StartCoroutine(DisableAfterAnimation());
+        }
+    }
+
+
+    
+   private System.Collections.IEnumerator DisableAfterAnimation()
+    {
+        // Aguarda a duração da animação (utilizando a duração do clip)
+        yield return new WaitForSeconds(animationComponent[animationName].length);
+
+        if (animatedObject != null)
+        {
+            animatedObject.SetActive(false); // Desativa o GameObject após a animação
+            Debug.Log("Fim da Animacao!");
         }
     }
 

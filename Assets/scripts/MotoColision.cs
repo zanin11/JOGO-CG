@@ -9,7 +9,10 @@ public class MotoCollision : MonoBehaviour
     public AudioSource audioSource; // Referência ao AudioSource
     public AudioClip collisonClip; // Referência ao Clip de áudio
     int dinheiro;
-    public Animator dinheiroAnimator;
+    public Text LoseText;
+    public Animation animationComponent;  // Referência ao componente Animation
+    public GameObject animatedObject;    // Referência ao GameObject que contém a animação
+    public string animationName;
     // Inicializa o Rigidbody da moto e salva a posição inicial
     void Start()
     {
@@ -80,14 +83,41 @@ public class MotoCollision : MonoBehaviour
             }
         }
     }
+    public void PlayAnimation(string animationName)
+    {
+        if (animatedObject != null && animationComponent != null)
+        {
+            animatedObject.SetActive(true); // Torna o GameObject ativo
+            animationComponent.Play(animationName); // Reproduz a animação
+            Debug.Log("Animação Iniciada!");
+
+            // Chama a corrotina para desativar o objeto após a animação
+            StartCoroutine(DisableAfterAnimation());
+        }
+    }
+
+
     
+   private System.Collections.IEnumerator DisableAfterAnimation()
+    {
+        // Aguarda a duração da animação (utilizando a duração do clip)
+        yield return new WaitForSeconds(animationComponent[animationName].length);
+
+        if (animatedObject != null)
+        {
+            animatedObject.SetActive(false); // Desativa o GameObject após a animação
+            Debug.Log("Fim da Animacao!");
+        }
+    }
+
     void AtualizarTexto(string dinheiro)
     {
         // Verifica se atualizaDinheiro não é null
         if (atualizaDinheiro != null)
         {
             atualizaDinheiro.AtualizarTexto(dinheiro);
-            //dinheiroAnimator.Play("DinheiroSubindo");  // Toca a animação
+            LoseText.text = "-R$500,00";
+            PlayAnimation("LoseMoneyAnimation");
         }
         else
         {

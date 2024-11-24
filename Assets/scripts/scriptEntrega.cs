@@ -14,11 +14,11 @@ public class PontoEntrega : MonoBehaviour
     public AudioSource audioSource; // Referência ao AudioSource
     public AudioClip dinheiroClip; // Referência ao Clip de áudio
     public bool estaAtivo = false;
-    //public Animator dinheiroAnimator;
     public float tempoDesdeAtivacao;
     int dinheiro;
-    public Animator animator;
-    public GameObject animatedObject;
+    public Animation animationComponent;  // Referência ao componente Animation
+    public GameObject animatedObject;    // Referência ao GameObject que contém a animação
+    public string animationName = "MoneyAnimation"; // Nome da animação a ser executada
     //public int dinheiro = parseInt(TxtDinheiro.text);
     private void OnTriggerEnter(Collider other)
     {
@@ -28,10 +28,7 @@ public class PontoEntrega : MonoBehaviour
             {
                 entregaFeita = true;
                 Debug.Log("Entrega realizada!");
-                // Ativar animação e esperar finalização (corrotina necessária)
-                /*StartCoroutine(PlayMoneyAnimation());
-                yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length); // Aguarda o tempo da animação
-                animatedObject.SetActive(false); // Desativa novamente*/
+                PlayAnimation();
                 GameObject otherGameObject = GameObject.Find("TxtQtdPedidos");
                 scriptGerenciadorEntrega = otherGameObject.GetComponent<GerenciadorDeEntregas>();
                 if(scriptGerenciadorEntrega != null)
@@ -50,18 +47,30 @@ public class PontoEntrega : MonoBehaviour
         }
     }
 
-    /*private IEnumerator PlayMoneyAnimation()
+    public void PlayAnimation()
     {
-        // Ativa o objeto e toca a animação
-        animatedObject.SetActive(true);
-        animator.Play("MoneyAnimation");
+        if (animatedObject != null && animationComponent != null)
+        {
+            animatedObject.SetActive(true); // Torna o GameObject ativo
+            animationComponent.Play(animationName); // Reproduz a animação
+            Debug.Log("Animação Iniciada!");
 
-        // Aguarda o fim da animação
-        yield return new WaitForSeconds(animator.GetCurrentAnimatorClipInfo(0)[0].clip.length);
+            // Chama a corrotina para desativar o objeto após a animação
+            StartCoroutine(DisableAfterAnimation());
+        }
+    }
+    
+   private System.Collections.IEnumerator DisableAfterAnimation()
+    {
+        // Aguarda a duração da animação (utilizando a duração do clip)
+        yield return new WaitForSeconds(animationComponent[animationName].length);
 
-        // Desativa o objeto novamente
-        animatedObject.SetActive(false);
-    }*/
+        if (animatedObject != null)
+        {
+            animatedObject.SetActive(false); // Desativa o GameObject após a animação
+            Debug.Log("Fim da Animacao!");
+        }
+    }
 
     public void AtivarPonto()
     {
