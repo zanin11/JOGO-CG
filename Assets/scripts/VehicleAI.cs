@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
-
+//
 public class VehicleAI : MonoBehaviour
 {
     public List<Transform> waypoints; // Lista de waypoints disponíveis
