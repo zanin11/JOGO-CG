@@ -9867,6 +9867,108 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2, y: 1, z: 0.20000005}
   m_Center: {x: 0, y: 0.5, z: -0.000000022351742}
+--- !u!1 &259763917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 259763918}
+  - component: {fileID: 259763921}
+  - component: {fileID: 259763920}
+  - component: {fileID: 259763919}
+  m_Layer: 0
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &259763918
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259763917}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1774875978}
+  m_Father: {fileID: 1215830974}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &259763919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259763917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &259763920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259763917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &259763921
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 259763917}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
 --- !u!1001 &260119633
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11719,9 +11821,13 @@ MonoBehaviour:
   semaforoFrente: {fileID: 781093627}
   atualizaDinheiro: {fileID: 0}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
   TxtDinheiro: {fileID: 1304731574}
 --- !u!1 &299104916 stripped
 GameObject:
@@ -14122,9 +14228,13 @@ MonoBehaviour:
   semaforoFrente: {fileID: 1909499274}
   atualizaDinheiro: {fileID: 0}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
   TxtDinheiro: {fileID: 1304731574}
 --- !u!1 &352076165 stripped
 GameObject:
@@ -14623,9 +14733,13 @@ MonoBehaviour:
   semaforoFrente: {fileID: 1432566789}
   atualizaDinheiro: {fileID: 0}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
   TxtDinheiro: {fileID: 1304731574}
 --- !u!1 &361589325 stripped
 GameObject:
@@ -19705,9 +19819,13 @@ MonoBehaviour:
   semaforoFrente: {fileID: 1108428849}
   atualizaDinheiro: {fileID: 0}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
   TxtDinheiro: {fileID: 1304731574}
 --- !u!4 &491957130 stripped
 Transform:
@@ -27109,9 +27227,13 @@ MonoBehaviour:
   audioSource: {fileID: 826250726}
   collisonClip: {fileID: 8300000, guid: 3a0ba56f824caa84abe71c3028dbfa11, type: 3}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
 --- !u!65 &663290417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29450,11 +29572,15 @@ MonoBehaviour:
   speedLimit: 15
   radarPosition: {fileID: 1678376095}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 428571119}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
 --- !u!65 &721331642
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33107,11 +33233,15 @@ MonoBehaviour:
   speedLimit: 15
   radarPosition: {fileID: 1650070115}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 428571119}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
 --- !u!65 &798185434
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39239,7 +39369,7 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: 9944516bf2817d141a7be2a6f2e47da6, type: 2}
   m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
 --- !u!1 &942329961 stripped
@@ -41397,9 +41527,13 @@ MonoBehaviour:
   semaforoFrente: {fileID: 511399409}
   atualizaDinheiro: {fileID: 0}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
   TxtDinheiro: {fileID: 1304731574}
 --- !u!65 &987958023
 BoxCollider:
@@ -51018,9 +51152,13 @@ MonoBehaviour:
   semaforoFrente: {fileID: 206410686}
   atualizaDinheiro: {fileID: 0}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
   TxtDinheiro: {fileID: 1304731574}
 --- !u!1001 &1166070715
 PrefabInstance:
@@ -53845,6 +53983,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 760039646653639976, guid: 9efb2638cadf04a7d9f711b8a141df62, type: 3}
   m_PrefabInstance: {fileID: 1213996768}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1215830973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1215830974}
+  m_Layer: 0
+  m_Name: EspecificationLoseMoney
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1215830974
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215830973}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 48, y: -0.27755705, z: 11.627305}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 259763918}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1216067548 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8975351485483291768, guid: da1c53a625d404fa5835f3cb74972c93, type: 3}
@@ -58049,11 +58219,15 @@ MonoBehaviour:
   speedLimit: 15
   radarPosition: {fileID: 2075029023}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 428571119}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
 --- !u!65 &1289365247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59584,11 +59758,15 @@ MonoBehaviour:
   speedLimit: 15
   radarPosition: {fileID: 1311754086}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 428571119}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
 --- !u!65 &1323667457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69692,11 +69870,15 @@ MonoBehaviour:
   speedLimit: 15
   radarPosition: {fileID: 666367042}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 428571119}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
 --- !u!65 &1507749875
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75656,11 +75838,15 @@ MonoBehaviour:
   speedLimit: 15
   radarPosition: {fileID: 530527876}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   TxtDinheiro: {fileID: 1304731574}
   atualizaDinheiro: {fileID: 428571119}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
 --- !u!65 &1629491195
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81362,9 +81548,13 @@ MonoBehaviour:
   audioSource: {fileID: 0}
   collisonClip: {fileID: 0}
   LoseText: {fileID: 0}
+  Especification: {fileID: 0}
   animationComponent: {fileID: 0}
   animatedObject: {fileID: 0}
   animationName: 
+  animationComponent2: {fileID: 0}
+  animatedObject2: {fileID: 0}
+  animationName2: 
 --- !u!65 &1761040724
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81729,9 +81919,13 @@ MonoBehaviour:
   semaforoFrente: {fileID: 0}
   atualizaDinheiro: {fileID: 0}
   LoseText: {fileID: 0}
+  Especification: {fileID: 0}
   animationComponent: {fileID: 0}
   animatedObject: {fileID: 0}
   animationName: 
+  animationComponent2: {fileID: 0}
+  animatedObject2: {fileID: 0}
+  animationName2: 
   TxtDinheiro: {fileID: 0}
 --- !u!1 &1767829980 stripped
 GameObject:
@@ -82358,6 +82552,102 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 760039646653639976, guid: 9efb2638cadf04a7d9f711b8a141df62, type: 3}
   m_PrefabInstance: {fileID: 1773681362}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1774875977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1774875978}
+  - component: {fileID: 1774875981}
+  - component: {fileID: 1774875980}
+  - component: {fileID: 1774875979}
+  m_Layer: 0
+  m_Name: Especification
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1774875978
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774875977}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 259763918}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -536, y: 414}
+  m_SizeDelta: {x: 800, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!111 &1774875979
+Animation:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774875977}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: badceccc3d782bd43ab647799ae9301d, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: badceccc3d782bd43ab647799ae9301d, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 0
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!114 &1774875980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774875977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 70
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 7
+    m_MaxSize: 70
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1774875981
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774875977}
+  m_CullTransparentMesh: 1
 --- !u!1 &1775477210 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 128322510527707026, guid: 9efb2638cadf04a7d9f711b8a141df62, type: 3}
@@ -98574,9 +98864,13 @@ MonoBehaviour:
   semaforoFrente: {fileID: 1680369702}
   atualizaDinheiro: {fileID: 0}
   LoseText: {fileID: 942108961}
+  Especification: {fileID: 1774875980}
   animationComponent: {fileID: 942108963}
   animatedObject: {fileID: 942108958}
   animationName: LoseMoneyAnimation
+  animationComponent2: {fileID: 1774875979}
+  animatedObject2: {fileID: 1774875977}
+  animationName2: EspecificationLoseMoney
   TxtDinheiro: {fileID: 1304731574}
 --- !u!1 &2096754512 stripped
 GameObject:
@@ -102657,3 +102951,4 @@ SceneRoots:
   - {fileID: 1052340997}
   - {fileID: 2022857345}
   - {fileID: 1143354713}
+  - {fileID: 1215830974}

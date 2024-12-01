@@ -7,11 +7,15 @@ public class SpeedRadarDetector : MonoBehaviour
     public Transform radarPosition; // Ponto de referência para a posição do radar
     private int dinheiro;
     public Text LoseText;
+    public Text Especification;
     public Text TxtDinheiro;    // Referência ao Text na UI para exibir o dinheiro
     public AtualizaDinheiro atualizaDinheiro; 
     public Animation animationComponent;  // Referência ao componente Animation
     public GameObject animatedObject;    // Referência ao GameObject que contém a animação
     public string animationName;
+    public Animation animationComponent2;  // Referência ao componente Animation
+    public GameObject animatedObject2;    // Referência ao GameObject que contém a animação
+    public string animationName2;
     void OnTriggerEnter(Collider other)
     {
         // Verifica se o objeto colidido tem a tag "Player"
@@ -61,7 +65,18 @@ public class SpeedRadarDetector : MonoBehaviour
             StartCoroutine(DisableAfterAnimation());
         }
     }
+    public void PlayAnimation2(string animationName2)
+    {
+        if (animatedObject2 != null && animationComponent2 != null)
+        {
+            animatedObject2.SetActive(true); // Torna o GameObject ativo
+            animationComponent2.Play(animationName2); // Reproduz a animação
+            Debug.Log("Animação Iniciada!");
 
+            // Chama a corrotina para desativar o objeto após a animação
+            StartCoroutine(DisableAfterAnimation());
+        }
+    }
 
     
    private System.Collections.IEnumerator DisableAfterAnimation()
@@ -75,6 +90,18 @@ public class SpeedRadarDetector : MonoBehaviour
             Debug.Log("Fim da Animacao!");
         }
     }
+    private System.Collections.IEnumerator DisableAfterAnimation2()
+    {
+        // Aguarda a duração da animação (utilizando a duração do clip)
+        yield return new WaitForSeconds(animationComponent2[animationName2].length);
+
+        if (animatedObject2 != null)
+        {
+            animatedObject2.SetActive(false); // Desativa o GameObject após a animação
+            Debug.Log("Fim da Animacao!");
+        }
+    }
+
         void AtualizarTexto(string dinheiro)
     {
         // Verifica se atualizaDinheiro não é null
@@ -82,6 +109,8 @@ public class SpeedRadarDetector : MonoBehaviour
         {
             atualizaDinheiro.AtualizarTexto(dinheiro);
             LoseText.text = "-R$200,00";
+            Especification.text = "Excesso de Velocidade!";
+            PlayAnimation2("EspecificationLoseMoney");
             PlayAnimation("LoseMoneyAnimation");
         }
         else

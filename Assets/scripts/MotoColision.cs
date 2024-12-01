@@ -10,9 +10,13 @@ public class MotoCollision : MonoBehaviour
     public AudioClip collisonClip; // Referência ao Clip de áudio
     int dinheiro;
     public Text LoseText;
+    public Text Especification;
     public Animation animationComponent;  // Referência ao componente Animation
     public GameObject animatedObject;    // Referência ao GameObject que contém a animação
     public string animationName;
+    public Animation animationComponent2;  // Referência ao componente Animation
+    public GameObject animatedObject2;    // Referência ao GameObject que contém a animação
+    public string animationName2;
     // Inicializa o Rigidbody da moto e salva a posição inicial
     void Start()
     {
@@ -95,7 +99,18 @@ public class MotoCollision : MonoBehaviour
             StartCoroutine(DisableAfterAnimation());
         }
     }
+    public void PlayAnimation2(string animationName2)
+    {
+        if (animatedObject2 != null && animationComponent2 != null)
+        {
+            animatedObject2.SetActive(true); // Torna o GameObject ativo
+            animationComponent2.Play(animationName2); // Reproduz a animação
+            Debug.Log("Animação2 Iniciada!");
 
+            // Chama a corrotina para desativar o objeto após a animação
+            StartCoroutine(DisableAfterAnimation2());
+        }
+    }
 
     
    private System.Collections.IEnumerator DisableAfterAnimation()
@@ -109,7 +124,17 @@ public class MotoCollision : MonoBehaviour
             Debug.Log("Fim da Animacao!");
         }
     }
+     private System.Collections.IEnumerator DisableAfterAnimation2()
+    {
+        // Aguarda a duração da animação (utilizando a duração do clip)
+        yield return new WaitForSeconds(animationComponent2[animationName2].length);
 
+        if (animatedObject2 != null)
+        {
+            animatedObject2.SetActive(false); // Desativa o GameObject após a animação
+            Debug.Log("Fim da Animacao!");
+        }
+    }
     void AtualizarTexto(string dinheiro)
     {
         // Verifica se atualizaDinheiro não é null
@@ -117,6 +142,8 @@ public class MotoCollision : MonoBehaviour
         {
             atualizaDinheiro.AtualizarTexto(dinheiro);
             LoseText.text = "-R$500,00";
+            Especification.text = "Colisão com Veículo!";
+            PlayAnimation2("EspecificationLoseMoney");
             PlayAnimation("LoseMoneyAnimation");
         }
         else
