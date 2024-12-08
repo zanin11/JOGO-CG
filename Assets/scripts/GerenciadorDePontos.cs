@@ -32,6 +32,7 @@ public class GerenciadorDePontos : MonoBehaviour
         pontosEntrega[indiceAleatorio].AtivarPonto();
         pontosAtivos.Add(pontosEntrega[indiceAleatorio]);
         PlayAnimation("ShowNovoPedidoAnimation");
+        AtualizaPontosAtivos();
     }
 
     public void Update()
@@ -41,7 +42,7 @@ public class GerenciadorDePontos : MonoBehaviour
         scriptGerenciadorEntrega = otherGameObject.GetComponent<GerenciadorDeEntregas>();
         //Debug.Log("Total de entregas: " + scriptGerenciadorEntrega.totalDeEntregas);
 
-        if (tempoDesdeUltimoPonto >= tempoParaProximoPonto && scriptGerenciadorEntrega.totalDeEntregas < 5)
+        if ((tempoDesdeUltimoPonto >= tempoParaProximoPonto && pontosAtivos.Count < 5) || pontosAtivos.Count == 0)
         {
             // Ativa um novo ponto aleatório
             int indiceAleatorio;
@@ -115,6 +116,16 @@ public class GerenciadorDePontos : MonoBehaviour
         {
             Debug.Log(ponto.gameObject.name);
         }
-        Debug.Log("Apontando para ponto: " + pontosAtivos[0].gameObject.name);
+        if(pontosAtivos.Count > 0){
+            Debug.Log("Apontando para ponto: " + pontosAtivos[0].gameObject.name);
+        }
+        GameObject otherGameObject = GameObject.Find("TxtQtdPedidos");
+        scriptGerenciadorEntrega = otherGameObject.GetComponent<GerenciadorDeEntregas>();
+        scriptGerenciadorEntrega.AtualizarTextoEntregas();
+
+    }
+
+    public int retornaPontosAtivos(){
+        return pontosAtivos.Count;
     }
 }

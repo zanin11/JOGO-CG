@@ -34,7 +34,7 @@ public class PontoEntrega : MonoBehaviour
                 if(scriptGerenciadorEntrega != null)
                 {
                     audioSource.PlayOneShot(dinheiroClip);
-                    scriptGerenciadorEntrega.RemoverPedido();
+                    //scriptGerenciadorEntrega.RemoverPedido();
                 }
                 SetObjectVisibility(false);
                 dinheiro = int.Parse(TxtDinheiro.text.Replace(" ", "").Trim());
@@ -92,7 +92,7 @@ public class PontoEntrega : MonoBehaviour
         GetComponent<Renderer>().enabled = false; // Exemplo: desativando o renderer
         GameObject otherGameObject = GameObject.Find("TxtQtdPedidos");
         scriptGerenciadorEntrega = otherGameObject.GetComponent<GerenciadorDeEntregas>();
-        scriptGerenciadorEntrega.RemoverPedido(); //retira pedido
+        //scriptGerenciadorEntrega.RemoverPedido(); //retira pedido
 
 
     }
