@@ -1,0 +1,801 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - AtualizaDinheiro
+    - BuildingLights
+    - DirecaoSeta
+    - GerenciadorDeEntregas
+    - GerenciadorDePontos
+    - MenuManager
+    - MotoCollision
+    - MotoController
+    - PoliceSiren
+    - PontoEntrega
+    - RedLightDetector
+    - SpeedRadarDetector
+    - StreetLight
+    - TrafficLights
+    - VehicleAI
+    - VolumeController
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Slider
+    - UnityEngine.UI.Text
+    - UnityEngine.UI.VerticalLayoutGroup
+  serializedClasses:
+    UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
+    - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.RectOffset
+    UnityEngine.UI:
+    - UnityEngine.UI.AnimationTriggers
+    - UnityEngine.UI.Button/ButtonClickedEvent
+    - UnityEngine.UI.ColorBlock
+    - UnityEngine.UI.FontData
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+    - UnityEngine.UI.Navigation
+    - UnityEngine.UI.Slider/SliderEvent
+    - UnityEngine.UI.SpriteState
+  methodsToPreserve:
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuManager
+    methodName: Jogar
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuManager
+    methodName: AbrirOpcoes
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuManager
+    methodName: Sair
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuManager
+    methodName: FecharInfo
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuManager
+    methodName: FecharOpcoes
+  - assembly: Assembly-CSharp
+    fullTypeName: MenuManager
+    methodName: AbrirInfo
+  - assembly: Assembly-CSharp
+    fullTypeName: AtualizaDinheiro
+    methodName: ReiniciarJogo
+  - assembly: Assembly-CSharp
+    fullTypeName: AtualizaDinheiro
+    methodName: ReiniciarJogo
+  - assembly: Assembly-CSharp
+    fullTypeName: AtualizaDinheiro
+    methodName: SairDoJogo
+  - assembly: Assembly-CSharp
+    fullTypeName: AtualizaDinheiro
+    methodName: SairDoJogo
+  sceneClasses:
+    Assets/Loading Games/Toon City Pack/Demo/Scenes/Demo.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 70
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 111
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1510}
+    - Class: 114
+      Script: {instanceID: 1520}
+    - Class: 114
+      Script: {instanceID: 1570}
+    - Class: 114
+      Script: {instanceID: 1574}
+    - Class: 114
+      Script: {instanceID: 1594}
+    - Class: 114
+      Script: {instanceID: 1624}
+    - Class: 114
+      Script: {instanceID: 1626}
+    - Class: 114
+      Script: {instanceID: 1640}
+    - Class: 114
+      Script: {instanceID: 1666}
+    - Class: 114
+      Script: {instanceID: 1686}
+    - Class: 114
+      Script: {instanceID: 1750}
+    - Class: 114
+      Script: {instanceID: 1758}
+    - Class: 114
+      Script: {instanceID: 1772}
+    - Class: 114
+      Script: {instanceID: 1792}
+    - Class: 114
+      Script: {instanceID: 1806}
+    - Class: 114
+      Script: {instanceID: 1812}
+    - Class: 114
+      Script: {instanceID: 1822}
+    - Class: 114
+      Script: {instanceID: 1828}
+    - Class: 114
+      Script: {instanceID: 1898}
+    - Class: 114
+      Script: {instanceID: 1908}
+    - Class: 114
+      Script: {instanceID: 1982}
+    - Class: 114
+      Script: {instanceID: 2034}
+    - Class: 114
+      Script: {instanceID: 2074}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+    Assets/menu.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1520}
+    - Class: 114
+      Script: {instanceID: 1574}
+    - Class: 114
+      Script: {instanceID: 1624}
+    - Class: 114
+      Script: {instanceID: 1680}
+    - Class: 114
+      Script: {instanceID: 1792}
+    - Class: 114
+      Script: {instanceID: 1812}
+    - Class: 114
+      Script: {instanceID: 1822}
+    - Class: 114
+      Script: {instanceID: 1838}
+    - Class: 114
+      Script: {instanceID: 1948}
+    - Class: 114
+      Script: {instanceID: 2074}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 8703b6ae2b0eefd9dafbc44d8d333fb1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: a1ac4c50e55874de16eee3db71aa9784
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b747f5d40674055dd70e18552f1b0447
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: a90f6a00b23520788be7d89ee3b0773d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 915204dac8acad99f076d6e72ada0a0f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 20a120e55ad3ab65556328d5fd8309dd
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: d5cd7f207e91ca8336c65a577a6fb2a0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: facdcbf07e6aeaa5ae30717c3d7acdb4
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Common.Tweens
+    className: RotationSpring
+  - hash:
+      serializedVersion: 2
+      Hash: 55060a7bf226ac385ce19ebd450f199f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 6c29efd441eac5e2228f3516e83d2b08
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: LoadingManager
+  - hash:
+      serializedVersion: 2
+      Hash: 67e3443d2ec913006b7cb2fbfbcfd765
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Examples.Interface
+    className: Inventory
+  - hash:
+      serializedVersion: 2
+      Hash: 28fd3d045acc780719a17f02073eb448
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: a4f690da1bb6ea14863503137f6090b0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DirecaoSeta
+  - hash:
+      serializedVersion: 2
+      Hash: dd9dda1dfd39e605c49e72003342ef5d
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 826f4e95c9712bb26d1f01743abb5e68
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Examples.Interface.Elements
+    className: InventoryItem
+  - hash:
+      serializedVersion: 2
+      Hash: 7053e305cdc1eb560f4c3be49d3b5136
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 3b0ab146309fc5cf4abd79df11cfa531
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Common.Tweens
+    className: SpringDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: d0cdd713f9bf4e6a625d9e7804deca42
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 237b6ba2d19278fba3d6e3ffbf4410ff
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PontoEntrega
+  - hash:
+      serializedVersion: 2
+      Hash: 5fe91d0b5913d746db5e3d5a04a0ddc1
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface.Elements
+    className: Avatar
+  - hash:
+      serializedVersion: 2
+      Hash: 5874b789cd9832847c61ebfa803213af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UIElements
+    className: PanelEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 540882762544409cc4530e60db00e951
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: e719c6d11b91e7d8f39f979b53725780
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MotoCollision
+  - hash:
+      serializedVersion: 2
+      Hash: 7e2a4fab7004f29756554037ed88f091
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Examples.Interface.Elements
+    className: DragReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 5f6cfc9579dc8d3b3e6463ac735af2c8
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Common.Tweens
+    className: GridSpring
+  - hash:
+      serializedVersion: 2
+      Hash: 76ccabe622292824a2866aef39ac95de
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GerenciadorDePontos
+  - hash:
+      serializedVersion: 2
+      Hash: 22c9bc38141eedd49b146881e4b9ed48
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface
+    className: SignUp
+  - hash:
+      serializedVersion: 2
+      Hash: a99385a5d0a7bf77a3936d8d825038a9
+    assemblyName: Assembly-CSharp
+    namespaceName: Movement
+    className: RotatePart
+  - hash:
+      serializedVersion: 2
+      Hash: 327beda996cd73fac77fef15a4fc827a
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Examples.Chat
+    className: ChatExample
+  - hash:
+      serializedVersion: 2
+      Hash: 1a680d9a08de79b0d2c779e78c9843b4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 383c0e23554376b3e79e4a16ae03dc9f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: StreetLight
+  - hash:
+      serializedVersion: 2
+      Hash: e56e3d38a75daf39eebe14de94d9e96d
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MenuManager
+  - hash:
+      serializedVersion: 2
+      Hash: e67cc16eb483b3d336726e819c810ac5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: RedLightDetector
+  - hash:
+      serializedVersion: 2
+      Hash: d53ca129eff3f5e987925198e17cdaa6
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Examples.Inventory
+    className: InventoryExample
+  - hash:
+      serializedVersion: 2
+      Hash: 5ebc58ec194dd44630b25fcc270ad4af
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: d16d7568fb248e2e2dd186419acfb1c8
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Common.Tweens
+    className: Tween
+  - hash:
+      serializedVersion: 2
+      Hash: 541ef26f774b9e4c8a7877fa95c057b5
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface.Elements
+    className: MessageRow
+  - hash:
+      serializedVersion: 2
+      Hash: f37e1cd007a3595f40b517dc6a3c3a08
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface.Elements
+    className: LocalizationTextAuto
+  - hash:
+      serializedVersion: 2
+      Hash: 6adab748a2518c7f2f241896d5c1adec
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface
+    className: Settings
+  - hash:
+      serializedVersion: 2
+      Hash: db813bdd928ce2ecbdc3a681dc9d269a
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Examples.Interface.Elements
+    className: ScrollInventory
+  - hash:
+      serializedVersion: 2
+      Hash: 25b1d34675e57faf77d76258f8f77826
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface.Elements
+    className: WindowAppearance
+  - hash:
+      serializedVersion: 2
+      Hash: 013b74de44d0cc35ad84d6431d3f3f87
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface
+    className: Menu
+  - hash:
+      serializedVersion: 2
+      Hash: 10c17b309bdca62b4d7fbaf113ed4ca0
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 01be9c5b7db1100a8943b399ecc847d2
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts
+    className: Run
+  - hash:
+      serializedVersion: 2
+      Hash: 9b5da8976a3dc83d89feb1638c014407
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GerenciadorDeEntregas
+  - hash:
+      serializedVersion: 2
+      Hash: 72fc35ab9e41f64175faafc4a4ff378e
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface
+    className: Popup
+  - hash:
+      serializedVersion: 2
+      Hash: 38cfd75d5c9f664be4fccd6db8bee119
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: TrafficLights
+  - hash:
+      serializedVersion: 2
+      Hash: 5ef29e3e0b730015e7a7a594b5a6fae1
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Screenshot
+  - hash:
+      serializedVersion: 2
+      Hash: 8dff8e9853297d341afa0c11f9091b59
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 62a0108ac6f1f0c646d44950096ef7fd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MotoController
+  - hash:
+      serializedVersion: 2
+      Hash: 2e68486edb912df34796030f7a8bc345
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Common.Tweens
+    className: ScaleSpring
+  - hash:
+      serializedVersion: 2
+      Hash: 33656f83bb0079184b2206a69690ec46
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: b5007673bbbdb9d12597a1d8201370f5
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: be07371ae3337cc9beb07241ca396645
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Common.Tweens
+    className: ColorSpring
+  - hash:
+      serializedVersion: 2
+      Hash: ed09742a1f36b7d826603dadf5b4ba9c
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SpeedRadarDetector
+  - hash:
+      serializedVersion: 2
+      Hash: 00bbd9db8634496d079d17711b2ff7c4
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: e987953190eb4c12cf19df790566dc2c
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: 9104447b683bf70406fa01f12ecb564a
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 4878e735441f4041539853759559c86f
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 98f4ecd22c2af7bf326e24733c994c3e
+    assemblyName: Assembly-CSharp
+    namespaceName: Movement
+    className: Rotation
+  - hash:
+      serializedVersion: 2
+      Hash: 53e329840e6d03aebec76623c3b054db
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 0485d50988c73fe120f2b151e1ad5757
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface.Elements
+    className: CustomSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 33f160a5c07e580c29aba2bd1e4db811
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: d4bfc38d60badce96e602fa5c15738e9
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface
+    className: PopupSpin
+  - hash:
+      serializedVersion: 2
+      Hash: 4055e6a1515a6dfd179a03637c1fbf2e
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Examples.Interface.Elements
+    className: ItemInfo
+  - hash:
+      serializedVersion: 2
+      Hash: cf32d98954e63b8e30e9334b152e9b8e
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 2c79a98f39eb37d818294b183ebf5c45
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Common.Tweens
+    className: PositionSpring
+  - hash:
+      serializedVersion: 2
+      Hash: b13d667cef1c3d692158b1e369ec1893
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Common.Tweens
+    className: Rotation
+  - hash:
+      serializedVersion: 2
+      Hash: c211bb823732da4e5e6181e64763dff4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PoliceSiren
+  - hash:
+      serializedVersion: 2
+      Hash: d68dba48390cd0d1b340d04a82077c02
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VehicleAI
+  - hash:
+      serializedVersion: 2
+      Hash: 1ab136900c0edaeeb49424c852595030
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: b9b8f4e2745012e9af6941a6f6212032
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Examples.Interface.Elements
+    className: Equipment
+  - hash:
+      serializedVersion: 2
+      Hash: af5b5215945ff153ee6bcd7bfdecffa6
+    assemblyName: Assembly-CSharp
+    namespaceName: Lighting
+    className: LightsFlasher
+  - hash:
+      serializedVersion: 2
+      Hash: 92ba3a9ec0284dbb5649e14db940446d
+    assemblyName: Assembly-CSharp
+    namespaceName: FastMesh_Example
+    className: SceneViewText
+  - hash:
+      serializedVersion: 2
+      Hash: db99bd2ab27d72a0f5ed9921d10a62d7
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface
+    className: BaseInterface
+  - hash:
+      serializedVersion: 2
+      Hash: 222c15d7d642f1c4415fdd4ef7940cb0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: VolumeController
+  - hash:
+      serializedVersion: 2
+      Hash: fe5cc75e4cf11635c4f8b9fd2f5fe210
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface.Elements
+    className: ToggleSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 8dc40a01667ca02b3354a4e7a61be082
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 4d6e856280314f66caebb10aa98d9b5a
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Examples.Interface.Elements
+    className: ItemSlot
+  - hash:
+      serializedVersion: 2
+      Hash: f0f32114c3d9bdda7dae4bc850b26052
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BuildingLights
+  - hash:
+      serializedVersion: 2
+      Hash: 4fcf0bb4aff1d14a1dfcdedc4b07bd05
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: e8d390bd9ecacc453a7500b90d0c0292
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 8ff00308b7f82eefce81b678d27b0d07
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface.Elements
+    className: SimpleDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: bc4388fe6f9e0342c6833b8672287e45
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface.Dialog
+    className: Dialog
+  - hash:
+      serializedVersion: 2
+      Hash: afb7b65d28d5a7423e69a1b076be0064
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: e9ad55597a5bc8e9add32ebbb12d2083
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AtualizaDinheiro
+  - hash:
+      serializedVersion: 2
+      Hash: 6aa722823dc2aa95c151f3840f510a5e
+    assemblyName: Assembly-CSharp
+    namespaceName: Movement
+    className: RotationVariable
+  - hash:
+      serializedVersion: 2
+      Hash: 6289d782f3fefc3ce51dfd86c3adc507
+    assemblyName: Assembly-CSharp
+    namespaceName: Assets.Scripts.Interface.Elements
+    className: Blackout
+  - hash:
+      serializedVersion: 2
+      Hash: 5a4aa2850fe11587f47e34c270c7fd22
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  platform: 19
+  scenePathNames:
+  - Assets/menu.unity
+  - Assets/Loading Games/Toon City Pack/Demo/Scenes/Demo.unity
+  playerPath: E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery.exe

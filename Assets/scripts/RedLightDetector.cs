@@ -26,13 +26,21 @@ public class RedLightDetector : MonoBehaviour
             if (trafficLight.activeLight == LightColor.Red)
             {
                 // Calcula a direção entre o player e o ponto de referência à frente do semáforo
-                Vector3 direcaoPlayer = (other.transform.position - semaforoFrente.position).normalized;
+               Vector3 direcaoPlayer = (other.transform.position - semaforoFrente.position).normalized;
 
-                // Verifica o ângulo entre a direção do player e a frente do semáforo
-                float angulo = Vector3.Angle(semaforoFrente.forward, direcaoPlayer);
+            // Calcula o ângulo entre a frente do semáforo e a direção do player
+            float angulo = Vector3.Angle(semaforoFrente.forward, direcaoPlayer);
+
+            // Calcula o produto escalar entre a frente do semáforo e a direção do player
+            float produtoEscalar = Vector3.Dot(semaforoFrente.forward, direcaoPlayer);
+            Vector3 posicaoRelativa = semaforoFrente.InverseTransformPoint(other.transform.position);
+            // Adiciona mensagens de depuração
+            Debug.Log($"Ângulo calculado: {angulo}");
+            Debug.Log($"Produto escalar calculado: {produtoEscalar}");
+            Debug.Log($"Posicao relativa: {posicaoRelativa}");
 
                 // Detecta apenas se o ângulo for inferior a um valor, indicando que o player está na direção correta
-                if (angulo < 90f)  // Ajuste o ângulo conforme necessário
+                if (posicaoRelativa.z > 0)  // Ajuste o ângulo conforme necessário
                 {
                     
                     Debug.Log("MULTAAAAA!!!! PLAYER PASSOU NO SINAL VERMELHO!");
