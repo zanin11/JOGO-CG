@@ -40,7 +40,7 @@ public class RedLightDetector : MonoBehaviour
             Debug.Log($"Posicao relativa: {posicaoRelativa}");
 
                 // Detecta apenas se o ângulo for inferior a um valor, indicando que o player está na direção correta
-                if (posicaoRelativa.z > 0)  // Ajuste o ângulo conforme necessário
+                if (produtoEscalar > 0 && angulo < 90f && posicaoRelativa.z > 0)  // Ajuste o ângulo conforme necessário
                 {
                     
                     Debug.Log("MULTAAAAA!!!! PLAYER PASSOU NO SINAL VERMELHO!");
