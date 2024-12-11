@@ -17890,7 +17890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TxtDinheiro: {fileID: 0}
   dinheiro: 0
-  valorVitoria: 1200
+  valorVitoria: 2000
   valorDerrota: -1000
   telaVitoria: {fileID: 0}
   telaDerrota: {fileID: 0}
@@ -42596,6 +42596,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7437263717829056142, guid: 3251c781defe1407c8f424ea546826e9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1326498688}
+    - targetCorrespondingSourceObject: {fileID: 7437263717829056142, guid: 3251c781defe1407c8f424ea546826e9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1326498689}
   m_SourcePrefab: {fileID: 100100000, guid: 3251c781defe1407c8f424ea546826e9, type: 3}
 --- !u!1 &1000913755
 GameObject:
@@ -60570,6 +60573,27 @@ MonoBehaviour:
   waypoints: []
   speed: 10
   stopDistance: 5
+--- !u!65 &1326498689
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326498683}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1.7114979, y: 1.4603275, z: 4.387492}
+  m_Center: {x: -0.000000059604645, y: 0.9363709, z: 0.12561023}
 --- !u!1001 &1326569875
 PrefabInstance:
   m_ObjectHideFlags: 0

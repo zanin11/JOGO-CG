@@ -1,353 +1,296 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1733873488513782, "dur":102, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1733873488513989, "dur":2925, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1733873488516936, "dur":707, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1733873488517705, "dur":51, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
-,{ "pid":12345, "tid":0, "ts":1733873488517756, "dur":658, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1733873488518489, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"Player" }}
-,{ "pid":12345, "tid":0, "ts":1733873488518660, "dur":113, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1733873488518844, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/level0" }}
-,{ "pid":12345, "tid":0, "ts":1733873488518918, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/level1" }}
-,{ "pid":12345, "tid":0, "ts":1733873488518993, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/resources.assets" }}
-,{ "pid":12345, "tid":0, "ts":1733873488519119, "dur":117, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":0, "ts":1733873488519296, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":0, "ts":1733873488519392, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":0, "ts":1733873488519591, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1733873488519722, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1733873488519807, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":0, "ts":1733873488519967, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
-,{ "pid":12345, "tid":0, "ts":1733873488520063, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488520123, "dur":97, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488520230, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488520327, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488520401, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488520534, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488520716, "dur":88, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488520812, "dur":109, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488520929, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488521013, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488521345, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488521479, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488521551, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488521622, "dur":92, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488521723, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488521841, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488521929, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488522014, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488522150, "dur":61, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488522266, "dur":122, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488522456, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488522559, "dur":64, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488522646, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488522722, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488522944, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488523022, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488523126, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488523196, "dur":107, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488523311, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488523397, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488523479, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488523548, "dur":58, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488523934, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488523998, "dur":110, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488524119, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488524231, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488524322, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488524444, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488524515, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488524632, "dur":52, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488524691, "dur":104, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488524803, "dur":76, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488524987, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488525297, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488525374, "dur":85, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488525467, "dur":117, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488525592, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488525670, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488525798, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488525884, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488525977, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488526053, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488526112, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488526349, "dur":88, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488526445, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488526527, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488526610, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488526730, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488526837, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488526911, "dur":95, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488527018, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488527144, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488527221, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/app.info" }}
-,{ "pid":12345, "tid":0, "ts":1733873488527312, "dur":81, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
-,{ "pid":12345, "tid":0, "ts":1733873488527459, "dur":72, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery.exe" }}
-,{ "pid":12345, "tid":0, "ts":1733873488527540, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488527614, "dur":88, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488527709, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":0, "ts":1733873488527881, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":0, "ts":1733873488527964, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":0, "ts":1733873488528123, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":0, "ts":1733873488528196, "dur":74, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":0, "ts":1733873488528331, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":0, "ts":1733873488528387, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":0, "ts":1733873488528471, "dur":100, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":0, "ts":1733873488528636, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":0, "ts":1733873488528735, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":0, "ts":1733873488528834, "dur":67, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":0, "ts":1733873488528913, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":0, "ts":1733873488528972, "dur":103, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":0, "ts":1733873488529084, "dur":78, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":0, "ts":1733873488529281, "dur":63, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":0, "ts":1733873488529351, "dur":79, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":0, "ts":1733873488518475, "dur":10957, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1733873488529443, "dur":984253, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1733873489513697, "dur":792, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1733873489514783, "dur":2030, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1733873488518875, "dur":10591, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1733873488529467, "dur":8379, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1733873488537939, "dur":176, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1733873488538128, "dur":1762, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":1, "ts":1733873488540235, "dur":294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Bilbioteca\\Area de trabalho\\JOGO\\New Unity Project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":1, "ts":1733873488540532, "dur":515, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Bilbioteca\\Area de trabalho\\JOGO\\New Unity Project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1733873488537937, "dur":3206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1733873488541594, "dur":91, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1733873488542390, "dur":883316, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1733873489428266, "dur":309, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1733873489428263, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1733873489430360, "dur":82, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1733873489428624, "dur":1850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/boot.config" }}
-,{ "pid":12345, "tid":1, "ts":1733873489430479, "dur":83222, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1733873488518929, "dur":10632, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1733873488529562, "dur":604, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1733873488530166, "dur":7690, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1733873488537883, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1733873488589787, "dur":3464, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/app.info" }}
-,{ "pid":12345, "tid":2, "ts":1733873488593300, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1733873488593401, "dur":3954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488597459, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488598660, "dur":155, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1733873488598852, "dur":1912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UmbraModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488603829, "dur":235, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1733873488600871, "dur":3212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TilemapModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488604119, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1733873488604240, "dur":1425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488605772, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488607027, "dur":1722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488608868, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488610377, "dur":2419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.Physics2DModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488612894, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488615075, "dur":3737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.InputModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488618905, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.IMGUIModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488621391, "dur":470, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1733873488621893, "dur":11225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.GameCenterModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488633232, "dur":315051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/UnityPlayer.dll" }}
-,{ "pid":12345, "tid":2, "ts":1733873488948319, "dur":565357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488519019, "dur":10538, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488529558, "dur":595, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488530154, "dur":7723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488537882, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1733873488537941, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488539919, "dur":3505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":3, "ts":1733873488543545, "dur":3234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
-,{ "pid":12345, "tid":3, "ts":1733873488546805, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1733873488546917, "dur":2955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1733873488549973, "dur":3718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":3, "ts":1733873488553723, "dur":964, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":3, "ts":1733873488553722, "dur":967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery.exe" }}
-,{ "pid":12345, "tid":3, "ts":1733873488554748, "dur":2485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery.exe" }}
-,{ "pid":12345, "tid":3, "ts":1733873488557329, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488557668, "dur":5000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/mscorlib.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488562783, "dur":6109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Xml.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488568928, "dur":17578, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488603830, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488586535, "dur":17373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Security.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488604023, "dur":1561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488605670, "dur":1071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TLSModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488606771, "dur":473, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488607285, "dur":2855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488610243, "dur":1756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.PhysicsModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488612118, "dur":963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488613116, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488613276, "dur":2444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488615800, "dur":4387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488620222, "dur":728, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488623304, "dur":61, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488620982, "dur":2401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.GridModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488623471, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488625205, "dur":1321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488626633, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488628452, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488630875, "dur":1953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488634574, "dur":349, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488632947, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AIModule.dll" }}
-,{ "pid":12345, "tid":3, "ts":1733873488635002, "dur":204, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1733873488635234, "dur":449004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/sharedassets1.assets.resS" }}
-,{ "pid":12345, "tid":3, "ts":1733873489084271, "dur":429365, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1733873488519117, "dur":10607, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1733873488529726, "dur":580, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1733873488530307, "dur":7652, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1733873488590118, "dur":3341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
-,{ "pid":12345, "tid":4, "ts":1733873488593879, "dur":3835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1733873488597747, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1733873488597868, "dur":47339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1733873488645338, "dur":115583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/sharedassets0.assets.resS" }}
-,{ "pid":12345, "tid":4, "ts":1733873488760954, "dur":752685, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1733873488519182, "dur":10465, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1733873488529648, "dur":809, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1733873488530458, "dur":7409, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1733873488537872, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":5, "ts":1733873488591031, "dur":3753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/browscap.ini" }}
-,{ "pid":12345, "tid":5, "ts":1733873488594822, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1733873488595275, "dur":4093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1733873488599403, "dur":1636, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1733873488601102, "dur":5218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1733873488606346, "dur":142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1733873488606343, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1733873488606585, "dur":41342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.StreamingModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1733873488647971, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1733873488648200, "dur":2147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/sharedassets0.assets" }}
-,{ "pid":12345, "tid":5, "ts":1733873488650449, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1733873488650575, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":5, "ts":1733873488652951, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":5, "ts":1733873488654722, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1733873488654850, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Resources/unity_builtin_extra" }}
-,{ "pid":12345, "tid":5, "ts":1733873488656643, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1733873488656828, "dur":856582, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/resources.assets.resS" }}
-,{ "pid":12345, "tid":5, "ts":1733873489513454, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1733873488519279, "dur":10269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1733873488529549, "dur":537, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1733873488530087, "dur":7776, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1733873488537870, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1733873488539756, "dur":3662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":6, "ts":1733873488543453, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1733873488543583, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
-,{ "pid":12345, "tid":6, "ts":1733873488546349, "dur":1994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1733873488548610, "dur":2229, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1733873488551236, "dur":2500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":6, "ts":1733873488554161, "dur":12106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Resources/unity default resources" }}
-,{ "pid":12345, "tid":6, "ts":1733873488566363, "dur":589, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1733873488566991, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Transactions.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488568566, "dur":3134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.ServiceModel.Internals.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488572106, "dur":2985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Numerics.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488575190, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.IO.Compression.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488578153, "dur":4039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Data.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488582356, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.ComponentModel.Composition.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488584468, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1733873488584556, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/Newtonsoft.Json.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488586274, "dur":1729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488588124, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488589487, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1733873488589909, "dur":961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.VRModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488590904, "dur":542, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1733873488591476, "dur":3795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488595350, "dur":2719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488598098, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1733873488598293, "dur":3578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488601902, "dur":441, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1733873488602405, "dur":4833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488607269, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1733873488607398, "dur":2402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488609836, "dur":477, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1733873488610414, "dur":2462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ProfilerModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488612977, "dur":1763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488614902, "dur":4205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488619142, "dur":678, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1733873488619859, "dur":3424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.HotReloadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488623404, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488625182, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488626622, "dur":4257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ClothModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488630963, "dur":5559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":6, "ts":1733873488636606, "dur":185827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/sharedassets1.assets" }}
-,{ "pid":12345, "tid":6, "ts":1733873488822482, "dur":691195, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488519348, "dur":10176, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488529526, "dur":501, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488530028, "dur":103, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488530132, "dur":7727, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488537871, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1733873488537941, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488539130, "dur":7075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":7, "ts":1733873488546381, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":7, "ts":1733873488548273, "dur":1539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":7, "ts":1733873488549843, "dur":57, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1733873488549840, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1733873488549980, "dur":3471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
-,{ "pid":12345, "tid":7, "ts":1733873488553514, "dur":343, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488553910, "dur":23496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488577436, "dur":328, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488577822, "dur":2361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Drawing.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488583071, "dur":78, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488580274, "dur":2972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Core.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488583356, "dur":1669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/Mono.Security.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488585118, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488587025, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.XRModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488588666, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.VideoModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488590634, "dur":3549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.VFXModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488594232, "dur":639, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488594904, "dur":2670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488597663, "dur":1409, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488599100, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488599207, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488601124, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488601327, "dur":2978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488604345, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488604593, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TerrainModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488606347, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488607704, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488607936, "dur":1601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488609635, "dur":8011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.PropertiesModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488617692, "dur":1709, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488619517, "dur":2765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488622343, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488622536, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.GIModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488623661, "dur":3725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.CoreModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488627474, "dur":1182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488628688, "dur":783, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1733873488629516, "dur":2085, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AnimationModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488631684, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1733873488634114, "dur":116766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/sharedassets1.resource" }}
-,{ "pid":12345, "tid":7, "ts":1733873488750961, "dur":762733, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488519435, "dur":10104, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488529540, "dur":517, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488530060, "dur":7805, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488539271, "dur":4202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/config" }}
-,{ "pid":12345, "tid":8, "ts":1733873488543781, "dur":2917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
-,{ "pid":12345, "tid":8, "ts":1733873488546739, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1733873488546736, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1733873488546803, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488546914, "dur":2277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1733873488549218, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1733873488549365, "dur":2316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
-,{ "pid":12345, "tid":8, "ts":1733873488552286, "dur":112, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488552279, "dur":121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488552958, "dur":5363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488558436, "dur":5353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488569841, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488563911, "dur":6049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Xml.Linq.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488570007, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488570158, "dur":3335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Runtime.Serialization.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488573576, "dur":1757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Net.Http.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488575368, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488575488, "dur":1643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.IO.Compression.FileSystem.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488577204, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.EnterpriseServices.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488578974, "dur":2380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488583116, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488581456, "dur":1804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Configuration.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488583361, "dur":1911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/netstandard.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488585359, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488587156, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.WindModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488588680, "dur":34247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.VehiclesModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488622967, "dur":542, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488623539, "dur":33495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.DirectorModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1733873488657060, "dur":1574, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488658672, "dur":1709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/resources.assets" }}
-,{ "pid":12345, "tid":8, "ts":1733873488660447, "dur":103, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488660778, "dur":2799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/level1" }}
-,{ "pid":12345, "tid":8, "ts":1733873488663659, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/level0" }}
-,{ "pid":12345, "tid":8, "ts":1733873488665304, "dur":70358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/globalgamemanagers.assets.resS" }}
-,{ "pid":12345, "tid":8, "ts":1733873488735713, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488740584, "dur":263, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1733873488735801, "dur":5116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/globalgamemanagers.assets" }}
-,{ "pid":12345, "tid":8, "ts":1733873488741024, "dur":7191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/globalgamemanagers" }}
-,{ "pid":12345, "tid":8, "ts":1733873488748246, "dur":765395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1733873489520744, "dur":3927, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1733957712845746, "dur":14404, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733957712860162, "dur":747, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733957712860965, "dur":371, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733957712861470, "dur":103, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/level0" }}
+,{ "pid":12345, "tid":0, "ts":1733957712861600, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1733957712861776, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":0, "ts":1733957712861943, "dur":118, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1733957712862341, "dur":107, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1733957712862713, "dur":98, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1733957712862848, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1733957712862977, "dur":86, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1733957712863200, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1733957712863428, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1733957712863540, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1733957712864585, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1733957712861364, "dur":5134, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733957712866500, "dur":2835041, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733957715701542, "dur":142, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733957715701684, "dur":92, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733957715701829, "dur":59, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733957715701949, "dur":910, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1733957712861817, "dur":4720, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733957712866539, "dur":363, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733957712866902, "dur":3917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733957712870837, "dur":2169, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":1, "ts":1733957712870819, "dur":2188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1733957712891973, "dur":410, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733957712886866, "dur":5532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1733957712900297, "dur":18160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733957712918599, "dur":70, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733957712918673, "dur":3481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733957712922213, "dur":6552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733957712928838, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733957712931572, "dur":4774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733957712936457, "dur":3932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733957712940465, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733957712942252, "dur":2388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733957712944721, "dur":2038, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733957712946831, "dur":2449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733957712949345, "dur":8779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733957712958156, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733957712958296, "dur":5657, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733957712966467, "dur":764, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733957712964066, "dur":3179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1733957712992086, "dur":1994, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733957712967349, "dur":26762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1733957712994166, "dur":2707373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733957712862229, "dur":4346, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733957712866580, "dur":362, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733957712866942, "dur":3878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733957712870820, "dur":1635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1733957712874857, "dur":4856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1733957712880168, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1733957712882579, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1733957712893168, "dur":175, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733957712885431, "dur":8100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1733957712895821, "dur":3748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712899662, "dur":4382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712904214, "dur":7938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712912178, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733957712912383, "dur":518, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733957712912907, "dur":9284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712922265, "dur":5565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712927990, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712930285, "dur":2598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712932912, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733957712933126, "dur":3557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712936715, "dur":526, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733957712937275, "dur":4528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712942282, "dur":3388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712945757, "dur":4200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712950001, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733957712950233, "dur":4742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712963847, "dur":63, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733957712955194, "dur":8771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712966372, "dur":493, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733957712964031, "dur":2852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733957712972714, "dur":532, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733957712966936, "dur":6348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1733957712973360, "dur":1937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1733957712975361, "dur":15925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1733957712991425, "dur":12515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1733957713003965, "dur":2697541, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733957712861717, "dur":4796, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733957712866517, "dur":4269, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733957712870815, "dur":1232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733957712872057, "dur":1099, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1733957712873165, "dur":274, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1733957712873599, "dur":583, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Bilbioteca\\Area de trabalho\\JOGO\\New Unity Project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733957712874184, "dur":1193, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Bilbioteca\\Area de trabalho\\JOGO\\New Unity Project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733957712872057, "dur":3488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1733957712879272, "dur":2820031, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1733957715700399, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1733957715700397, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1733957715700525, "dur":941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1733957712861796, "dur":4729, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712866529, "dur":319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712866848, "dur":52, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712866901, "dur":3894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712870820, "dur":960, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1733957712870802, "dur":979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1733957712874848, "dur":4904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1733957712879932, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1733957712880021, "dur":479, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712880686, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1733957712883557, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1733957712884613, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1733957712884671, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712884851, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1733957712887379, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712891502, "dur":3358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712894891, "dur":922, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712895825, "dur":98, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712895929, "dur":15863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712917066, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712911960, "dur":5675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712920809, "dur":175, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712917772, "dur":3256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712925996, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712921207, "dur":4906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712926208, "dur":2782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712929114, "dur":1313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712930508, "dur":559, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712931102, "dur":2376, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712937686, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712933579, "dur":4186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712937837, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712939753, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712939973, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712941495, "dur":483, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712942018, "dur":7498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712949564, "dur":294, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733957712949888, "dur":5283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712955338, "dur":8606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712964015, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733957712966976, "dur":302374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1733957713269378, "dur":2432134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712861865, "dur":4677, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712866546, "dur":341, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712866887, "dur":3907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712870829, "dur":1051, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1733957712870803, "dur":1078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1733957712873856, "dur":5448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1733957712879327, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1733957712879486, "dur":1776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1733957712881314, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712881386, "dur":1522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1733957712884176, "dur":3647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1733957712887999, "dur":1009, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712918159, "dur":132, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712889273, "dur":29035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733957712920954, "dur":761, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712918407, "dur":3358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733957712921832, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712921973, "dur":80, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712924298, "dur":108, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712922064, "dur":2363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733957712924516, "dur":3334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733957712927980, "dur":4438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733957712932443, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712932662, "dur":8219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733957712940989, "dur":9043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733957712950106, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712964425, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712950419, "dur":15211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733957712965665, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"E:\\Unity\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733957712965662, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733957712965749, "dur":1091, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733957712966845, "dur":225144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733957713192010, "dur":2509520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733957712862066, "dur":4495, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733957712866565, "dur":320, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733957712866885, "dur":3907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733957712870810, "dur":2287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733957712887638, "dur":6852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/app.info" }}
+,{ "pid":12345, "tid":6, "ts":1733957712894593, "dur":5558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712900172, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733957712900277, "dur":7505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712907885, "dur":3835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712911785, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733957712912432, "dur":4090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712916557, "dur":70, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733957712916666, "dur":9212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712925976, "dur":4008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712930063, "dur":3584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712937985, "dur":215, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733957712933713, "dur":4501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712938286, "dur":3955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712942317, "dur":3368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712945761, "dur":3437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712949228, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733957712949306, "dur":2874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712952283, "dur":1540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712953888, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712955418, "dur":8861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712964304, "dur":429, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733957712965105, "dur":2627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733957712967773, "dur":2571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1733957712970497, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":6, "ts":1733957712971560, "dur":1817, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733957712973459, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1733957712975501, "dur":15729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1733957712991483, "dur":2502, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733957712994004, "dur":20015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":6, "ts":1733957713014053, "dur":2687451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712862286, "dur":4304, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712866595, "dur":341, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712866936, "dur":3860, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712874633, "dur":4662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1733957712879331, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1733957712879488, "dur":1987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1733957712881585, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1733957712883784, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712881699, "dur":2211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1733957712884175, "dur":3898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1733957712888112, "dur":898, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":7, "ts":1733957712888111, "dur":901, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery.exe" }}
+,{ "pid":12345, "tid":7, "ts":1733957712889055, "dur":131, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712889189, "dur":6133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery.exe" }}
+,{ "pid":12345, "tid":7, "ts":1733957712895352, "dur":797, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712896184, "dur":12644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712908898, "dur":2843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712912164, "dur":7194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712919459, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712921415, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712923244, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712923374, "dur":6255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712929755, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712932213, "dur":2605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712934911, "dur":4907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712939848, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712940076, "dur":696, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712940793, "dur":3636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712944528, "dur":2281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712946833, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712946930, "dur":3033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712949993, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712950236, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712953452, "dur":3407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712956888, "dur":344, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712957263, "dur":7058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712964346, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712964664, "dur":3354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733957712968210, "dur":271, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712971894, "dur":1053, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733957712968508, "dur":4459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1733957712973051, "dur":625649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1733957713598716, "dur":2102813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712862386, "dur":4218, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712866605, "dur":366, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712866971, "dur":3828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712874617, "dur":4928, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":8, "ts":1733957712879565, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1733957712879665, "dur":587, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712880266, "dur":132, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712881139, "dur":3993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1733957712885167, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1733957712885253, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712885659, "dur":5925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1733957712892183, "dur":16827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1733957712909041, "dur":283, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712912267, "dur":620, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712909350, "dur":3555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733957712912958, "dur":1465, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712922927, "dur":103, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712914469, "dur":8590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733957712923147, "dur":4851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733957712928022, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712928103, "dur":2153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733957712930356, "dur":4454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733957712934904, "dur":52, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712937677, "dur":90, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712934961, "dur":2836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733957712937837, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712937922, "dur":147, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712938073, "dur":2930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733957712947557, "dur":149, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712941093, "dur":6712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733957712947934, "dur":206, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712952337, "dur":64, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712948151, "dur":4279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733957712952632, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712952743, "dur":1735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733957712954596, "dur":3937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733957712958558, "dur":530, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712966437, "dur":465, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712959135, "dur":7798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733957712966980, "dur":75, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712985586, "dur":248, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712967058, "dur":18946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1733957712986079, "dur":135, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733957712986238, "dur":32806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/Bilbioteca/Area de trabalho/Safe Delivery/SafeDelivery_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1733957713019074, "dur":2682457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733957715704203, "dur":1289, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
